@@ -1,0 +1,2127 @@
+  body {  
+    line-height:1.5;
+    font-family:var(--font-area);
+  }  
+body { 
+/* CSS Variables that may have been missed get put on body */ 
+    --tw-translate-x:  0;  
+    --tw-translate-y:  0;  
+    --tw-rotate:  0;  
+    --tw-skew-x:  0;  
+    --tw-skew-y:  0;  
+    --tw-scale-x:  1;  
+    --tw-scale-y:  1;  
+    --tw-ring-offset-width:  0px;  
+    --tw-ring-offset-color:  #fff;  
+    --tw-ring-color:  rgb(59 130 246 / .5);  
+    --tw-ring-offset-shadow:  0 0 #0000;  
+    --tw-ring-shadow:  0 0 #0000;  
+    --tw-shadow:  0 0 #0000;  
+    --tw-shadow-colored:  0 0 #0000; 
+    --tw-translate-x:  0;  
+    --tw-translate-y:  0;  
+    --tw-rotate:  0;  
+    --tw-skew-x:  0;  
+    --tw-skew-y:  0;  
+    --tw-scale-x:  1;  
+    --tw-scale-y:  1;  
+    --tw-ring-offset-width:  0px;  
+    --tw-ring-offset-color:  #fff;  
+    --tw-ring-color:  rgb(59 130 246 / .5);  
+    --tw-ring-offset-shadow:  0 0 #0000;  
+    --tw-ring-shadow:  0 0 #0000;  
+    --tw-shadow:  0 0 #0000;  
+    --tw-shadow-colored:  0 0 #0000; 
+    --tw-translate-x:  0;  
+    --tw-translate-y:  0;  
+    --tw-rotate:  0;  
+    --tw-skew-x:  0;  
+    --tw-skew-y:  0;  
+    --tw-scale-x:  1;  
+    --tw-scale-y:  1;  
+    --tw-ring-offset-width:  0px;  
+    --tw-ring-offset-color:  #fff;  
+    --tw-ring-color:  rgb(59 130 246 / .5);  
+    --tw-ring-offset-shadow:  0 0 #0000;  
+    --tw-ring-shadow:  0 0 #0000;  
+    --tw-shadow:  0 0 #0000;  
+    --tw-shadow-colored:  0 0 #0000; 
+    --tw-bg-opacity:  1;  
+    --tw-bg-opacity:  1;  
+    --tw-bg-opacity:  1;  
+    --tw-text-opacity:  1;  
+    --tw-shadow:  0 1px 2px 0 rgb(0 0 0 / .05);  
+    --tw-shadow-colored:  0 1px 2px 0 var(--tw-shadow-color);  
+    --tw-shadow-color:  rgb(115 115 115 / .2);  
+    --tw-shadow:  var(--tw-shadow-colored); 
+    --tw-text-opacity:  1;  
+    --tw-bg-opacity:  1;  
+    --tw-text-opacity:  1;  
+    --tw-ring-offset-shadow:  var(--tw-ring-inset) 0 0 0 var(--tw-ring-offset-width) var(--tw-ring-offset-color);  
+    --tw-ring-shadow:  var(--tw-ring-inset) 0 0 0 calc(0px + var(--tw-ring-offset-width)) var(--tw-ring-color);  
+    --tw-ring-offset-shadow:  var(--tw-ring-inset) 0 0 0 var(--tw-ring-offset-width) var(--tw-ring-offset-color);  
+    --tw-ring-shadow:  var(--tw-ring-inset) 0 0 0 calc(1px + var(--tw-ring-offset-width)) var(--tw-ring-color);  
+    --tw-ring-color:  rgb(0 0 0 / .1); 
+    --tw-ring-opacity:  1;  
+    --tw-ring-color:  rgb(37 99 235 / var(--tw-ring-opacity)); 
+    --tw-bg-opacity:  1;  
+    --tw-text-opacity:  1;  
+    --tw-bg-opacity:  1;  
+    --tw-text-opacity:  1;  
+    --tw-bg-opacity:  1;  
+    --tw-text-opacity:  1;  
+    --tw-text-opacity:  1;  
+    --tw-space-y-reverse:  0;  
+    --tw-text-opacity:  1;  
+    --tw-bg-opacity:  1;  
+    --tw-space-x-reverse:  0;  
+    --tw-backdrop-blur:  blur(4px);  
+    --tw-text-opacity:  1;  
+    --tw-text-opacity:  1;  
+    --tw-text-opacity:  1;  
+    --tw-text-opacity:  1;  
+    --tw-rotate:  45deg;  
+    --tw-scale-x:  1.05;  
+    --tw-scale-y:  1.05;  
+    --tw-rotate:  45deg;  
+    --tw-text-opacity:  1;  
+} 
+
+* { 
+    box-sizing: border-box; 
+    border-width: 0; 
+    border-style: solid; 
+    border-color: #e5e7eb;
+} 
+
+* { 
+    --tw-translate-x: 0; 
+    --tw-translate-y: 0; 
+    --tw-rotate: 0; 
+    --tw-skew-x: 0; 
+    --tw-skew-y: 0; 
+    --tw-scale-x: 1; 
+    --tw-scale-y: 1; 
+    --tw-ring-offset-width: 0px; 
+    --tw-ring-offset-color: #fff; 
+    --tw-ring-color: rgb(59 130 246 / .5); 
+    --tw-ring-offset-shadow: 0 0 #0000; 
+    --tw-ring-shadow: 0 0 #0000; 
+    --tw-shadow: 0 0 #0000; 
+    --tw-shadow-colored: 0 0 #0000;
+} 
+
+html { 
+    line-height: 1.5; 
+    -webkit-text-size-adjust: 100%; 
+    -moz-tab-size: 4; 
+    -o-tab-size: 4; 
+    tab-size: 4; 
+    font-family: var(--font-area); 
+    font-feature-settings: normal; 
+    font-variation-settings: normal; 
+    -webkit-tap-highlight-color: transparent;
+} 
+
+html { 
+    scroll-behavior: smooth; 
+    font-display: swap;
+} 
+
+:root { 
+    color-scheme: light; 
+    --theme-text: 203deg 11% 15%; 
+} 
+
+:root { 
+    --font-editorial: Editorial_New, '_font_fallback_269046921431', serif;
+} 
+
+:root { 
+    --font-area: Area_Normal, '_font_fallback_553458944054', sans-serif;
+} 
+
+:root { 
+    --font-supply: Supply, '_font_fallback_479112857417', monospace;
+} 
+
+body { 
+    margin: 0; 
+    line-height: inherit;
+} 
+
+body { 
+    font-size: .875rem; 
+    line-height: 1.25rem; 
+    font-weight: 500;
+} 
+
+.rel-hhd { 
+    position: relative;
+} 
+
+.fle-zh9 { 
+    display: flex;
+} 
+
+.h-zn3 { 
+    height: 100%;
+} 
+
+.min-h-hed { 
+    min-height: 100vh;
+} 
+
+.w-loj { 
+    width: 100%;
+} 
+
+.col-zio { 
+    flex-direction: column;
+} 
+
+.item-fbp { 
+    align-items: center;
+} 
+
+.ant-o72 { 
+    -webkit-font-smoothing: antialiased; 
+    -moz-osx-font-smoothing: grayscale;
+} 
+
+*,:before,:after { 
+    box-sizing: border-box; 
+    border-width: 0; 
+    border-style: solid; 
+    border-color: #e5e7eb;
+} 
+
+*,:before,:after { 
+    --tw-translate-x: 0; 
+    --tw-translate-y: 0; 
+    --tw-rotate: 0; 
+    --tw-skew-x: 0; 
+    --tw-skew-y: 0; 
+    --tw-scale-x: 1; 
+    --tw-scale-y: 1; 
+    --tw-ring-offset-width: 0px; 
+    --tw-ring-offset-color: #fff; 
+    --tw-ring-color: rgb(59 130 246 / .5); 
+    --tw-ring-offset-shadow: 0 0 #0000; 
+    --tw-ring-shadow: 0 0 #0000; 
+    --tw-shadow: 0 0 #0000; 
+    --tw-shadow-colored: 0 0 #0000;
+} 
+
+:backdrop { 
+    --tw-translate-x: 0; 
+    --tw-translate-y: 0; 
+    --tw-rotate: 0; 
+    --tw-skew-x: 0; 
+    --tw-skew-y: 0; 
+    --tw-scale-x: 1; 
+    --tw-scale-y: 1; 
+    --tw-ring-offset-width: 0px; 
+    --tw-ring-offset-color: #fff; 
+    --tw-ring-color: rgb(59 130 246 / .5); 
+    --tw-ring-offset-shadow: 0 0 #0000; 
+    --tw-ring-shadow: 0 0 #0000; 
+    --tw-shadow: 0 0 #0000; 
+    --tw-shadow-colored: 0 0 #0000;
+} 
+
+:selection { 
+    color: #fff; 
+    --tw-bg-opacity: 1; 
+    background-color: rgb(37 99 235 / var(--tw-bg-opacity));
+} 
+
+.px-kc3 { 
+    padding-left: 1.5rem; 
+    padding-right: 1.5rem;
+} 
+
+.py-9ht { 
+    padding-top: .25rem; 
+    padding-bottom: .25rem;
+} 
+
+@media (min-width: 640px){ 
+  .item-iah { 
+    align-items: center;
+  } 
+
+  .smjustify-tn5 { 
+    justify-content: center;
+  } 
+}     
+
+astro-island { 
+    display: contents;
+} 
+
+.flex-jqw { 
+    flex: 1 1 0%;
+} 
+
+.justify-dqf { 
+    justify-content: space-between;
+} 
+
+.overflow-y-3k3 { 
+    overflow-y: auto;
+} 
+
+.bg-tgo { 
+    --tw-bg-opacity: 1; 
+    background-color: rgb(255 255 255 / var(--tw-bg-opacity));
+} 
+
+.px-7je { 
+    padding-left: 2rem; 
+    padding-right: 2rem;
+} 
+
+@media (min-width: 1024px){ 
+  .lgmax-w-screen-p21 { 
+    max-width: 100%;
+  } 
+}     
+
+.astro-route-yvp { 
+    position: absolute; 
+    left: 0; 
+    top: 0; 
+    clip: rect(0 0 0 0); 
+    clip-path: inset(50%); 
+    overflow: hidden; 
+    white-space: nowrap; 
+    width: 1px; 
+    height: 1px;
+} 
+
+canvas { 
+    display: block; 
+    vertical-align: middle;
+} 
+
+.row-cxc { 
+    flex-direction: row;
+    
+    
+} 
+
+button { 
+    font-family: inherit; 
+    font-feature-settings: inherit; 
+    font-variation-settings: inherit; 
+    font-size: 100%; 
+    font-weight: inherit; 
+    line-height: inherit; 
+    letter-spacing: inherit; 
+    color: inherit; 
+    margin: 0; 
+    padding: 0;
+} 
+
+button { 
+    text-transform: none;
+} 
+
+button { 
+    -webkit-appearance: button; 
+    background-color: transparent; 
+    background-image: none;
+} 
+
+button { 
+    cursor: pointer;
+} 
+
+.abs-my7 { 
+    position: absolute;
+} 
+
+.right-rp4 { 
+    right: 2rem;
+} 
+
+.top-\[18px\] { 
+    top: 18px;
+} 
+
+.h-\[32px\] { 
+    height: 32px;
+} 
+
+.cursor-p4g { 
+    cursor: pointer;
+} 
+
+.gap-x-w7j { 
+    -moz-column-gap: .5rem; 
+    column-gap: .5rem;
+} 
+
+.rounded-e4w { 
+    border-radius: 9999px;
+} 
+
+.bg-nns { 
+    --tw-bg-opacity: 1; 
+    background-color: rgb(252 82 0 / var(--tw-bg-opacity));
+} 
+
+.px-g3a { 
+    padding-left: .75rem; 
+    padding-right: .75rem;
+} 
+
+.text-18a { 
+    font-size: .75rem; 
+    line-height: 1rem;
+} 
+
+.font-57i { 
+    font-weight: 700;
+} 
+
+.leading-j1a { 
+    line-height: 1;
+} 
+
+.text-4dl { 
+    --tw-text-opacity: 1; 
+    color: rgb(255 255 255 / var(--tw-text-opacity));
+} 
+
+.shadow-84v { 
+    --tw-shadow: 0 1px 2px 0 rgb(0 0 0 / .05); 
+    --tw-shadow-colored: 0 1px 2px 0 var(--tw-shadow-color); 
+    box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000),var(--tw-ring-shadow, 0 0 #0000),var(--tw-shadow);
+} 
+
+.shadow-neutral-500\/20 { 
+    --tw-shadow-color: rgb(115 115 115 / .2); 
+    --tw-shadow: var(--tw-shadow-colored);
+} 
+
+.tra-7wl { 
+    transition-property: color,background-color,border-color,text-decoration-color,fill,stroke,opacity,box-shadow,transform,filter,-webkit-backdrop-filter; 
+    transition-property: color,background-color,border-color,text-decoration-color,fill,stroke,opacity,box-shadow,transform,filter,backdrop-filter; 
+    transition-property: color,background-color,border-color,text-decoration-color,fill,stroke,opacity,box-shadow,transform,filter,backdrop-filter,-webkit-backdrop-filter; 
+    transition-timing-function: cubic-bezier(.4,0,.2,1); 
+    transition-duration: .15s;
+} 
+
+.mx-zz5 { 
+    margin-left: auto; 
+    margin-right: auto;
+} 
+
+.mb-z45 { 
+    margin-bottom: 2rem;
+} 
+
+.mt-d27 { 
+    margin-top: 3rem;
+} 
+
+@media (min-width: 640px){ 
+  .smmt-ain { 
+    margin-top: 6rem;
+  } 
+}     
+
+.mt-vh4 { 
+    margin-top: 2rem;
+} 
+
+.item-4bc { 
+    align-items: flex-start;
+} 
+
+.justify-e51 { 
+    justify-content: center;
+} 
+
+.gap-y-twk { 
+    row-gap: .5rem;
+} 
+
+.self-4ns { 
+    align-self: flex-end;
+} 
+
+.justify-self-2o6 { 
+    justify-self: end;
+} 
+
+.border-45v { 
+    border-top-width: 1px;
+} 
+
+.border-gray-dcq { 
+    border-color: #f3f4f6;
+} 
+
+.pb-he1 { 
+    padding-bottom: 3rem;
+} 
+
+.pt-jao { 
+    padding-top: 3rem;
+} 
+
+.align-4ii { 
+    vertical-align: top;
+} 
+
+.font-bkm { 
+    font-weight: 400;
+} 
+
+.text-mqp { 
+    --tw-text-opacity: 1; 
+    color: rgb(75 85 99 / var(--tw-text-opacity));
+} 
+
+@media (min-width: 640px){ 
+  .row-l1t { 
+    flex-direction: row;
+  } 
+
+  .smjustify-ggf { 
+    justify-content: space-between;
+  } 
+
+  .text-wwd { 
+    font-size: .75rem; 
+    line-height: 1rem;
+  } 
+}     
+
+.mt-3wd { 
+    margin-top: 1rem;
+} 
+
+.text-qyn { 
+    font-size: .875rem; 
+    line-height: 1.25rem;
+} 
+
+.font-y8e { 
+    font-weight: 500;
+} 
+
+.top-\[0\.5px\] { 
+    top: .5px;
+} 
+
+.mb-587 { 
+    margin-bottom: 3rem;
+} 
+
+@media (min-width: 640px){ 
+  .smmb-n4f { 
+    margin-bottom: 4rem;
+  } 
+}     
+
+.flex-pgq { 
+    flex-wrap: wrap;
+} 
+
+.gap-9mx { 
+    gap: 1rem;
+} 
+
+.grid-hye { 
+    display: grid;
+} 
+
+.grid-6xe { 
+    grid-template-columns: repeat(1,minmax(0,1fr));
+} 
+
+.gap-k8p { 
+    gap: 2rem;
+} 
+
+@media (min-width: 768px){ 
+  .grid-cey { 
+    grid-template-columns: repeat(2,minmax(0,1fr));
+  } 
+}     
+
+@media (min-width: 1024px){ 
+  .grid-54k { 
+    grid-template-columns: repeat(3,minmax(0,1fr));
+  } 
+}     
+
+@media (min-width: 1280px){ 
+  .grid-e5k { 
+    grid-template-columns: repeat(4,minmax(0,1fr));
+  } 
+}     
+
+.gap-x-3j9 { 
+    -moz-column-gap: 1rem; 
+    column-gap: 1rem;
+} 
+
+.font-sk5 { 
+    font-family: var(--font-supply);
+} 
+
+.max-w-t2n { 
+    max-width: 24rem;
+} 
+
+@media (min-width: 640px){ 
+  .smgap-x-6sq { 
+    -moz-column-gap: 0px; 
+    column-gap: 0px;
+  } 
+}     
+
+h1 { 
+    font-size: inherit; 
+    font-weight: inherit;
+} 
+
+h1 { 
+    margin: 0;
+} 
+
+.font-w6s { 
+    font-family: var(--font-editorial);
+} 
+
+.text-l8x { 
+    font-size: 3rem; 
+    line-height: 1;
+} 
+
+.font-17v { 
+    /* font-weight: 200; */
+    font-size: 2.5rem; /* Adjust the size */
+    /* color: #2c00f1; Change to a deep blue-gray color */
+    color: #fff;
+    font-weight: bold; /* Make the text bold */
+    text-align: center; /* Center the text */
+    text-transform: uppercase; /* Make the text uppercase */
+    margin-bottom: 1rem; /* Adjust bottom margin */
+    text-shadow: 0 0 20px #00fffb, 0 0 40px #0081bc;
+} 
+
+@media (min-width: 640px){ 
+  .smmb-hwn { 
+    margin-bottom: 2.5rem;
+  } 
+
+  .text-abq { 
+    text-align: center;
+  } 
+
+  .text-sfo { 
+    font-size: 4.5rem; 
+    line-height: 1;
+  } 
+}     
+
+h2 { 
+    font-size: inherit; 
+    font-weight: inherit;
+} 
+
+h2 { 
+    margin: 0;
+} 
+
+.mb-fpr { 
+    margin-bottom: 1rem;
+} 
+
+.text-waw { 
+    text-wrap: pretty;
+} 
+
+.text-gaa { 
+    font-size: 1rem; 
+    line-height: 2rem;
+    font-size: 2rem; /* Slightly smaller than h1 */
+    color: #34495e; /* Darker blue-gray color */
+    font-weight: 600; /* Semi-bold weight */
+    text-align: left; /* Left-align the text */
+    text-transform: capitalize; /* Capitalize the first letter of each word */
+    margin-bottom: 0.75rem; /* Space below the heading */
+    text-align: center;
+} 
+
+@media (min-width: 640px){ 
+  .text-v5p { 
+    font-size: 1.125rem; 
+    line-height: 1.75rem;
+  } 
+}     
+
+.text-jn5 { 
+    text-align: center;
+} 
+
+a { 
+    color: inherit; 
+    text-decoration: inherit;
+} 
+
+.z-8ie { 
+    z-index: 10;
+} 
+
+.inline-9zl { 
+    display: inline-flex;
+} 
+
+.h-\[24px\] { 
+    height: 24px;
+} 
+
+.rounded-spn { 
+    border-radius: .375rem;
+} 
+
+.bg-blue-jib { 
+    --tw-bg-opacity: 1; 
+    background-color: rgb(37 99 235 / var(--tw-bg-opacity));
+} 
+
+.p-zl8 { 
+    padding: 1px;
+} 
+
+.text-yy2 { 
+    --tw-text-opacity: 1; 
+    color: rgb(0 0 0 / var(--tw-text-opacity));
+} 
+
+.no-19p { 
+    text-decoration-line: none;
+} 
+
+.ring-5pr { 
+    --tw-ring-offset-shadow: var(--tw-ring-inset) 0 0 0 var(--tw-ring-offset-width) var(--tw-ring-offset-color); 
+    --tw-ring-shadow: var(--tw-ring-inset) 0 0 0 calc(0px + var(--tw-ring-offset-width)) var(--tw-ring-color); 
+    box-shadow: var(--tw-ring-offset-shadow),var(--tw-ring-shadow),var(--tw-shadow, 0 0 #0000);
+} 
+
+.ring-hsq { 
+    --tw-ring-offset-shadow: var(--tw-ring-inset) 0 0 0 var(--tw-ring-offset-width) var(--tw-ring-offset-color); 
+    --tw-ring-shadow: var(--tw-ring-inset) 0 0 0 calc(1px + var(--tw-ring-offset-width)) var(--tw-ring-color); 
+    box-shadow: var(--tw-ring-offset-shadow),var(--tw-ring-shadow),var(--tw-shadow, 0 0 #0000);
+} 
+
+.ring-black\/10 { 
+    --tw-ring-color: rgb(0 0 0 / .1);
+} 
+
+.ring-blue-ye8 { 
+    --tw-ring-opacity: 1; 
+    --tw-ring-color: rgb(37 99 235 / var(--tw-ring-opacity));
+} 
+
+.col-77q { 
+    transition-property: color,background-color,border-color,text-decoration-color,fill,stroke; 
+    transition-timing-function: cubic-bezier(.4,0,.2,1); 
+    transition-duration: .15s;
+} 
+
+.duration-25h { 
+    transition-duration: .3s;
+} 
+
+.hoverbg-blue-d3s:hover { 
+    --tw-bg-opacity: 1; 
+    background-color: rgb(30 64 175 / var(--tw-bg-opacity));
+} 
+
+.text-vf8:hover { 
+    --tw-text-opacity: 1; 
+    color: rgb(255 255 255 / var(--tw-text-opacity));
+} 
+
+.hoverbg-gray-byn:hover { 
+    --tw-bg-opacity: 1; 
+    background-color: rgb(249 250 251 / var(--tw-bg-opacity));
+} 
+
+.max-w-kij { 
+    max-width: 32rem;
+} 
+
+.size-75n { 
+    width: 2rem; 
+    height: 2rem;
+} 
+
+.text-ann { 
+    --tw-text-opacity: 1; 
+    color: rgb(37 99 235 / var(--tw-text-opacity));
+} 
+
+.hoverbg-neutral-5lf:hover { 
+    --tw-bg-opacity: 1; 
+    background-color: rgb(250 250 250 / var(--tw-bg-opacity));
+} 
+
+.hoverbg-2ic:hover { 
+    background-color: transparent;
+} 
+
+.text-78x:hover { 
+    --tw-text-opacity: 1; 
+    color: rgb(29 78 216 / var(--tw-text-opacity));
+} 
+
+p { 
+    margin: 0;
+} 
+
+.text-iy5 { 
+    --tw-text-opacity: 1; 
+    color: rgb(107 114 128 / var(--tw-text-opacity));
+} 
+
+.space-y-yj6 > :not([hidden]) ~ :not([hidden])  { 
+    --tw-space-y-reverse: 0; 
+    margin-top: calc(1rem * calc(1 - var(--tw-space-y-reverse))); 
+    margin-bottom: calc(1rem * var(--tw-space-y-reverse));
+} 
+
+.me-xo2 { 
+    margin-inline-end: 0px;
+} 
+
+.px-8np { 
+    padding-left: 1rem; 
+    padding-right: 1rem;
+} 
+
+.py-hag { 
+    padding-top: .5rem; 
+    padding-bottom: .5rem;
+} 
+
+@media (min-width: 640px){ 
+  .smpx-rye { 
+    padding-left: .5rem; 
+    padding-right: .5rem;
+  } 
+
+  .smpy-6tg { 
+    padding-top: 0; 
+    padding-bottom: 0;
+  } 
+
+  .text-9nc:hover { 
+    --tw-text-opacity: 1; 
+    color: hsl(var(--theme-text) / var(--tw-text-opacity));
+  } 
+
+  .sm-ro6:hover { 
+    text-decoration-line: underline;
+  } 
+}     
+
+.block-a81 { 
+    display: inline-block;
+} 
+
+.p-3mq { 
+    padding: .5rem;
+} 
+
+.pt-\[0\.6rem\] { 
+    padding-top: .6rem;
+} 
+
+.transition-x6g { 
+    transition-property: all; 
+    transition-timing-function: cubic-bezier(.4,0,.2,1); 
+    transition-duration: .15s;
+} 
+
+.hoverbg-neutral-i1q:hover { 
+    --tw-bg-opacity: 1; 
+    background-color: rgb(245 245 245 / var(--tw-bg-opacity));
+} 
+
+.border-2i4 { 
+    border-width: 0px;
+} 
+
+.font-5co { 
+    font-weight: 800;
+} 
+
+.leading-oqt { 
+    line-height: 1.5;
+} 
+
+.blur-up-oxz { 
+    opacity: 0; 
+    animation: slide-up-blur .7s cubic-bezier(.16,1,.3,1); 
+    animation-delay: .4s; 
+    animation-fill-mode: forwards;
+} 
+
+.top-tko { 
+    top: 1px;
+} 
+
+.gap-x-0\.5 { 
+    -moz-column-gap: .125rem; 
+    column-gap: .125rem;
+} 
+
+.block-zl2 { 
+    display: block;
+} 
+
+.ease-in-1pj { 
+    transition-timing-function: cubic-bezier(.4,0,.2,1);
+} 
+
+.gro-dis\/product:hover .group-hover\/product\:opacity-75 { 
+    opacity: .75;
+} 
+
+img { 
+    display: block; 
+    vertical-align: middle;
+} 
+
+img { 
+    max-width: 100%; 
+    height: auto;
+} 
+
+.form-v1y { 
+    transition-property: transform; 
+    transition-timing-function: cubic-bezier(.4,0,.2,1); 
+    transition-duration: .15s;
+} 
+
+.duration-sj5 { 
+    transition-duration: .5s;
+} 
+
+.form-2aj { 
+    will-change: transform;
+} 
+
+.top-\[1px\] { 
+    top: 1px;
+} 
+
+.align-37w { 
+    vertical-align: baseline;
+} 
+
+svg { 
+    display: block; 
+    vertical-align: middle;
+} 
+
+.mb-\[1px\] { 
+    margin-bottom: 1px;
+} 
+
+.ml-2 { 
+    margin-left: .5rem;
+} 
+
+.w-4 { 
+    width: 1rem;
+} 
+
+.opacity-zab { 
+    opacity: .5;
+} 
+
+.space-x-swc > :not([hidden]) ~ :not([hidden])  { 
+    --tw-space-x-reverse: 0; 
+    margin-right: calc(.5rem * var(--tw-space-x-reverse)); 
+    margin-left: calc(.5rem * calc(1 - var(--tw-space-x-reverse)));
+} 
+
+.left-og4 { 
+    left: .25rem;
+} 
+
+.top-fka { 
+    top: .25rem;
+} 
+
+.p-bzs { 
+    padding: .25rem;
+} 
+
+.scale-z5k { 
+    opacity: 0; 
+    animation: scaleIn .3s cubic-bezier(.47,1.64,.41,.8); 
+    animation-delay: .3s; 
+    animation-fill-mode: forwards;
+} 
+
+.right-vm1 { 
+    right: .5rem;
+} 
+
+.top-5hh { 
+    top: .5rem;
+} 
+
+.bg-tgo\/20 { 
+    background-color: #fff3;
+} 
+
+.backdrop-blur-2ki { 
+    --tw-backdrop-blur: blur(4px); 
+    -webkit-backdrop-filter: var(--tw-backdrop-blur) var(--tw-backdrop-brightness) var(--tw-backdrop-contrast) var(--tw-backdrop-grayscale) var(--tw-backdrop-hue-rotate) var(--tw-backdrop-invert) var(--tw-backdrop-opacity) var(--tw-backdrop-saturate) var(--tw-backdrop-sepia); 
+    backdrop-filter: var(--tw-backdrop-blur) var(--tw-backdrop-brightness) var(--tw-backdrop-contrast) var(--tw-backdrop-grayscale) var(--tw-backdrop-hue-rotate) var(--tw-backdrop-invert) var(--tw-backdrop-opacity) var(--tw-backdrop-saturate) var(--tw-backdrop-sepia);
+} 
+
+[data-astro-transition-scope="astro-6svi5mpu-130"] { 
+    view-transition-name: product-arrow-ciele-w-dbsshort-elite-dark-rocks;
+} 
+
+.gro-dis\/product-thumb:hover .group-hover\/product-thumb\:bg-white\/60 { 
+    background-color: #fff9;
+} 
+
+.overflow-emx { 
+    overflow: hidden;
+} 
+
+.bor-fhe { 
+    border-width: 1px;
+} 
+
+.thumbnail-ifg { 
+    background-size: cover; 
+    background-position: center; 
+    animation: blurIn .3s ease-in-out forwards;
+} 
+
+.upp-iwl { 
+    text-transform: uppercase;
+} 
+
+.text-c78 { 
+    --tw-text-opacity: 1; 
+    color: rgb(156 163 175 / var(--tw-text-opacity));
+} 
+
+.mt-jz3 { 
+    margin-top: .25rem;
+} 
+
+.item-bms { 
+    align-items: baseline;
+} 
+
+[data-astro-transition-scope="astro-6svi5mpu-131"] { 
+    view-transition-name: product-arrow-running-order-adasi-4-short;
+} 
+
+[data-astro-transition-scope="astro-6svi5mpu-132"] { 
+    view-transition-name: product-arrow-oakley-latch-panel-neon-orange-prizm-bronze-running-sunglasses;
+} 
+
+[data-astro-transition-scope="astro-6svi5mpu-133"] { 
+    view-transition-name: product-arrow-balmoral-running-title-t-shirt;
+} 
+
+[data-astro-transition-scope="astro-6svi5mpu-134"] { 
+    view-transition-name: product-arrow-pruzan-mesh-running-singlet;
+} 
+
+[data-astro-transition-scope="astro-6svi5mpu-135"] { 
+    view-transition-name: product-arrow-satisfy-merino-tube-running-socks-white;
+} 
+
+[data-astro-transition-scope="astro-6svi5mpu-136"] { 
+    view-transition-name: product-arrow-tracksmith-van-cortlandt-tee-federation-collection;
+} 
+
+[data-astro-transition-scope="astro-6svi5mpu-137"] { 
+    view-transition-name: product-arrow-arcteryx-vertex-alpine-shoe-solaris;
+} 
+
+[data-astro-transition-scope="astro-6svi5mpu-138"] { 
+    view-transition-name: product-arrow-new-balance-fresh-foam-x-balos-running-shoe;
+} 
+
+[data-astro-transition-scope="astro-6svi5mpu-139"] { 
+    view-transition-name: product-arrow-nike-pegasus-41-running-shoe-electric-safari-olympic-fv2229-900;
+} 
+
+[data-astro-transition-scope="astro-6svi5mpu-140"] { 
+    view-transition-name: product-arrow-nike-zoomx-dragonfly-2-electric-pack-fv2326-900;
+} 
+
+[data-astro-transition-scope="astro-6svi5mpu-141"] { 
+    view-transition-name: product-arrow-crocs-quick-trail-low-satisfy-moss;
+} 
+
+[data-astro-transition-scope="astro-6svi5mpu-142"] { 
+    view-transition-name: product-arrow-dv-2xu-desert-comp-short-carbon-running-halftights;
+} 
+
+[data-astro-transition-scope="astro-6svi5mpu-143"] { 
+    view-transition-name: product-arrow-tracksmith-van-cortlandt-singlet-federation-collection-ivory-blush;
+} 
+
+[data-astro-transition-scope="astro-6svi5mpu-144"] { 
+    view-transition-name: product-arrow-tracksmith-federation-blazer-navy;
+} 
+
+[data-astro-transition-scope="astro-6svi5mpu-145"] { 
+    view-transition-name: product-arrow-nike-dri-fit-adv-fly-unstructured-aerobill-aeroadapt-cap-black-anthracite;
+} 
+
+[data-astro-transition-scope="astro-6svi5mpu-146"] { 
+    view-transition-name: product-arrow-adidas-mens-adizero-prime-sp3-aluminium-core-black;
+} 
+
+[data-astro-transition-scope="astro-6svi5mpu-147"] { 
+    view-transition-name: product-arrow-saucony-endorphin-pro-4-running-shoe;
+} 
+
+[data-astro-transition-scope="astro-6svi5mpu-148"] { 
+    view-transition-name: product-arrow-abicsi-rayon-vert-wormholes-sunglasses;
+} 
+
+[data-astro-transition-scope="astro-6svi5mpu-149"] { 
+    view-transition-name: product-arrow-on-running-mens-performance-tank-glacier;
+} 
+
+[data-astro-transition-scope="astro-6svi5mpu-150"] { 
+    view-transition-name: product-arrow-on-running-cloudboom-strike-ls-lightspray;
+} 
+
+[data-astro-transition-scope="astro-6svi5mpu-151"] { 
+    view-transition-name: product-arrow-alex-zono-reflector-shorts-gold;
+} 
+
+[data-astro-transition-scope="astro-6svi5mpu-152"] { 
+    view-transition-name: product-arrow-alex-zono-i-dig-running-trucker-hat;
+} 
+
+[data-astro-transition-scope="astro-6svi5mpu-153"] { 
+    view-transition-name: product-arrow-ciele-fstcap-qa-elite-hafnographic;
+} 
+
+[data-astro-transition-scope="astro-6svi5mpu-154"] { 
+    view-transition-name: product-arrow-on-running-cloudeclipse-alloy-white-shoes;
+} 
+
+[data-astro-transition-scope="astro-6svi5mpu-155"] { 
+    view-transition-name: product-arrow-janji-ws-pace-sports-bra-running;
+} 
+
+[data-astro-transition-scope="astro-6svi5mpu-156"] { 
+    view-transition-name: product-arrow-janji-afo-hyperlight-cap-fir;
+} 
+
+[data-astro-transition-scope="astro-6svi5mpu-157"] { 
+    view-transition-name: product-arrow-nike-marquee-edge-mirrored-running-sunglasses;
+} 
+
+[data-astro-transition-scope="astro-6svi5mpu-158"] { 
+    view-transition-name: product-arrow-new-balance-action-bronson-rosewater-1906r;
+} 
+
+[data-astro-transition-scope="astro-6svi5mpu-159"] { 
+    view-transition-name: product-arrow-heartbreak-coeur-brise-tee-paris-olympics-2024;
+} 
+
+[data-astro-transition-scope="astro-6svi5mpu-160"] { 
+    view-transition-name: product-arrow-apple-watch-ultra-2;
+} 
+
+[data-astro-transition-scope="astro-6svi5mpu-161"] { 
+    view-transition-name: product-arrow-on-running-cloudspike-citius-white-flame-prism;
+} 
+
+.text-x19 { 
+    --tw-text-opacity: 1; 
+    color: rgb(248 113 113 / var(--tw-text-opacity));
+} 
+
+.text-p3w:hover { 
+    --tw-text-opacity: 1; 
+    color: rgb(244 114 182 / var(--tw-text-opacity));
+} 
+
+.text-hop { 
+    --tw-text-opacity: 1; 
+    color: rgb(31 41 55 / var(--tw-text-opacity));
+} 
+
+.opacity-ata { 
+    opacity: .4;
+} 
+
+.gro-dis\/product-thumb:hover .group-hover\/product-thumb\:rotate-45 { 
+    --tw-rotate: 45deg; 
+    transform: translate(var(--tw-translate-x),var(--tw-translate-y)) rotate(var(--tw-rotate)) skew(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+} 
+
+ .gro-dis\/product-thumb:hover .group-hover\/product-thumb\:opacity-100 { 
+    opacity: 1;
+} 
+
+.z-vav { 
+    z-index: 0;
+} 
+
+.object-jgj { 
+    -o-object-fit: contain; 
+    object-fit: contain;
+} 
+
+[data-astro-transition-scope="astro-3vugyntt-1"] { 
+    view-transition-name: product-tile-ciele-w-dbsshort-elite-dark-rocks;
+} 
+
+.thumbnail-ifg > img  {
+    animation: fadeIn .3s ease-in-out forwards;
+    -webkit-animation: fadeIn .3s ease-in-out forwards;
+} 
+
+.hoverscale-okx:hover { 
+    --tw-scale-x: 1.05; 
+    --tw-scale-y: 1.05; 
+    transform: translate(var(--tw-translate-x),var(--tw-translate-y)) rotate(var(--tw-rotate)) skew(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+} 
+
+.hov-azs:hover { 
+    text-decoration-line: underline;
+} 
+
+[data-astro-transition-scope="astro-lsgyrqk2-2"] { 
+    view-transition-name: product-brand-ciele-w-dbsshort-elite-dark-rocks;
+} 
+
+[data-astro-transition-scope="astro-yspn4n2n-4"] { 
+    view-transition-name: product-price-ciele-w-dbsshort-elite-dark-rocks;
+} 
+
+.gro-dis\/product-thumb:hover .group-hover\/product-thumb\:rotate-45, .gro-dis:hover .group-hover\:rotate-45 { 
+    --tw-rotate: 45deg; 
+    transform: translate(var(--tw-translate-x),var(--tw-translate-y)) rotate(var(--tw-rotate)) skew(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+} 
+
+.gro-dis\/back-link:hover .group-hover\/back-link\:opacity-100, .gro-dis\/product-thumb:hover .group-hover\/product-thumb\:opacity-100 { 
+    opacity: 1;
+} 
+
+[data-astro-transition-scope="astro-3vugyntt-5"] { 
+    view-transition-name: product-tile-running-order-adasi-4-short;
+} 
+
+[data-astro-transition-scope="astro-lsgyrqk2-6"] { 
+    view-transition-name: product-brand-running-order-adasi-4-short;
+} 
+
+[data-astro-transition-scope="astro-yspn4n2n-8"] { 
+    view-transition-name: product-price-running-order-adasi-4-short;
+} 
+
+[data-astro-transition-scope="astro-3vugyntt-9"] { 
+    view-transition-name: product-tile-oakley-latch-panel-neon-orange-prizm-bronze-running-sunglasses;
+} 
+
+[data-astro-transition-scope="astro-lsgyrqk2-10"] { 
+    view-transition-name: product-brand-oakley-latch-panel-neon-orange-prizm-bronze-running-sunglasses;
+} 
+
+[data-astro-transition-scope="astro-yspn4n2n-12"] { 
+    view-transition-name: product-price-oakley-latch-panel-neon-orange-prizm-bronze-running-sunglasses;
+} 
+
+[data-astro-transition-scope="astro-3vugyntt-13"] { 
+    view-transition-name: product-tile-balmoral-running-title-t-shirt;
+} 
+
+[data-astro-transition-scope="astro-lsgyrqk2-14"] { 
+    view-transition-name: product-brand-balmoral-running-title-t-shirt;
+} 
+
+[data-astro-transition-scope="astro-yspn4n2n-16"] { 
+    view-transition-name: product-price-balmoral-running-title-t-shirt;
+} 
+
+[data-astro-transition-scope="astro-3vugyntt-17"] { 
+    view-transition-name: product-tile-pruzan-mesh-running-singlet;
+} 
+
+[data-astro-transition-scope="astro-lsgyrqk2-18"] { 
+    view-transition-name: product-brand-pruzan-mesh-running-singlet;
+} 
+
+[data-astro-transition-scope="astro-yspn4n2n-20"] { 
+    view-transition-name: product-price-pruzan-mesh-running-singlet;
+} 
+
+[data-astro-transition-scope="astro-3vugyntt-21"] { 
+    view-transition-name: product-tile-satisfy-merino-tube-running-socks-white;
+} 
+
+[data-astro-transition-scope="astro-lsgyrqk2-22"] { 
+    view-transition-name: product-brand-satisfy-merino-tube-running-socks-white;
+} 
+
+[data-astro-transition-scope="astro-yspn4n2n-24"] { 
+    view-transition-name: product-price-satisfy-merino-tube-running-socks-white;
+} 
+
+[data-astro-transition-scope="astro-3vugyntt-25"] { 
+    view-transition-name: product-tile-tracksmith-van-cortlandt-tee-federation-collection;
+} 
+
+[data-astro-transition-scope="astro-lsgyrqk2-26"] { 
+    view-transition-name: product-brand-tracksmith-van-cortlandt-tee-federation-collection;
+} 
+
+[data-astro-transition-scope="astro-yspn4n2n-28"] { 
+    view-transition-name: product-price-tracksmith-van-cortlandt-tee-federation-collection;
+} 
+
+[data-astro-transition-scope="astro-3vugyntt-29"] { 
+    view-transition-name: product-tile-arcteryx-vertex-alpine-shoe-solaris;
+} 
+
+[data-astro-transition-scope="astro-lsgyrqk2-30"] { 
+    view-transition-name: product-brand-arcteryx-vertex-alpine-shoe-solaris;
+} 
+
+[data-astro-transition-scope="astro-yspn4n2n-32"] { 
+    view-transition-name: product-price-arcteryx-vertex-alpine-shoe-solaris;
+} 
+
+[data-astro-transition-scope="astro-3vugyntt-33"] { 
+    view-transition-name: product-tile-new-balance-fresh-foam-x-balos-running-shoe;
+} 
+
+[data-astro-transition-scope="astro-lsgyrqk2-34"] { 
+    view-transition-name: product-brand-new-balance-fresh-foam-x-balos-running-shoe;
+} 
+
+[data-astro-transition-scope="astro-yspn4n2n-36"] { 
+    view-transition-name: product-price-new-balance-fresh-foam-x-balos-running-shoe;
+} 
+
+[data-astro-transition-scope="astro-3vugyntt-37"] { 
+    view-transition-name: product-tile-nike-pegasus-41-running-shoe-electric-safari-olympic-fv2229-900;
+} 
+
+[data-astro-transition-scope="astro-lsgyrqk2-38"] { 
+    view-transition-name: product-brand-nike-pegasus-41-running-shoe-electric-safari-olympic-fv2229-900;
+} 
+
+[data-astro-transition-scope="astro-yspn4n2n-40"] { 
+    view-transition-name: product-price-nike-pegasus-41-running-shoe-electric-safari-olympic-fv2229-900;
+} 
+
+[data-astro-transition-scope="astro-3vugyntt-41"] { 
+    view-transition-name: product-tile-nike-zoomx-dragonfly-2-electric-pack-fv2326-900;
+} 
+
+[data-astro-transition-scope="astro-lsgyrqk2-42"] { 
+    view-transition-name: product-brand-nike-zoomx-dragonfly-2-electric-pack-fv2326-900;
+} 
+
+[data-astro-transition-scope="astro-yspn4n2n-44"] { 
+    view-transition-name: product-price-nike-zoomx-dragonfly-2-electric-pack-fv2326-900;
+} 
+
+[data-astro-transition-scope="astro-3vugyntt-45"] { 
+    view-transition-name: product-tile-crocs-quick-trail-low-satisfy-moss;
+} 
+
+[data-astro-transition-scope="astro-lsgyrqk2-46"] { 
+    view-transition-name: product-brand-crocs-quick-trail-low-satisfy-moss;
+} 
+
+[data-astro-transition-scope="astro-yspn4n2n-48"] { 
+    view-transition-name: product-price-crocs-quick-trail-low-satisfy-moss;
+} 
+
+[data-astro-transition-scope="astro-3vugyntt-49"] { 
+    view-transition-name: product-tile-dv-2xu-desert-comp-short-carbon-running-halftights;
+} 
+
+[data-astro-transition-scope="astro-lsgyrqk2-50"] { 
+    view-transition-name: product-brand-dv-2xu-desert-comp-short-carbon-running-halftights;
+} 
+
+[data-astro-transition-scope="astro-yspn4n2n-52"] { 
+    view-transition-name: product-price-dv-2xu-desert-comp-short-carbon-running-halftights;
+} 
+
+[data-astro-transition-scope="astro-3vugyntt-53"] { 
+    view-transition-name: product-tile-tracksmith-van-cortlandt-singlet-federation-collection-ivory-blush;
+} 
+
+[data-astro-transition-scope="astro-lsgyrqk2-54"] { 
+    view-transition-name: product-brand-tracksmith-van-cortlandt-singlet-federation-collection-ivory-blush;
+} 
+
+[data-astro-transition-scope="astro-yspn4n2n-56"] { 
+    view-transition-name: product-price-tracksmith-van-cortlandt-singlet-federation-collection-ivory-blush;
+} 
+
+[data-astro-transition-scope="astro-3vugyntt-57"] { 
+    view-transition-name: product-tile-tracksmith-federation-blazer-navy;
+} 
+
+[data-astro-transition-scope="astro-lsgyrqk2-58"] { 
+    view-transition-name: product-brand-tracksmith-federation-blazer-navy;
+} 
+
+[data-astro-transition-scope="astro-yspn4n2n-60"] { 
+    view-transition-name: product-price-tracksmith-federation-blazer-navy;
+} 
+
+[data-astro-transition-scope="astro-3vugyntt-61"] { 
+    view-transition-name: product-tile-nike-dri-fit-adv-fly-unstructured-aerobill-aeroadapt-cap-black-anthracite;
+} 
+
+[data-astro-transition-scope="astro-lsgyrqk2-62"] { 
+    view-transition-name: product-brand-nike-dri-fit-adv-fly-unstructured-aerobill-aeroadapt-cap-black-anthracite;
+} 
+
+[data-astro-transition-scope="astro-yspn4n2n-64"] { 
+    view-transition-name: product-price-nike-dri-fit-adv-fly-unstructured-aerobill-aeroadapt-cap-black-anthracite;
+} 
+
+[data-astro-transition-scope="astro-3vugyntt-65"] { 
+    view-transition-name: product-tile-adidas-mens-adizero-prime-sp3-aluminium-core-black;
+} 
+
+[data-astro-transition-scope="astro-lsgyrqk2-66"] { 
+    view-transition-name: product-brand-adidas-mens-adizero-prime-sp3-aluminium-core-black;
+} 
+
+[data-astro-transition-scope="astro-yspn4n2n-68"] { 
+    view-transition-name: product-price-adidas-mens-adizero-prime-sp3-aluminium-core-black;
+} 
+
+[data-astro-transition-scope="astro-3vugyntt-69"] { 
+    view-transition-name: product-tile-saucony-endorphin-pro-4-running-shoe;
+} 
+
+[data-astro-transition-scope="astro-lsgyrqk2-70"] { 
+    view-transition-name: product-brand-saucony-endorphin-pro-4-running-shoe;
+} 
+
+[data-astro-transition-scope="astro-yspn4n2n-72"] { 
+    view-transition-name: product-price-saucony-endorphin-pro-4-running-shoe;
+} 
+
+[data-astro-transition-scope="astro-3vugyntt-73"] { 
+    view-transition-name: product-tile-abicsi-rayon-vert-wormholes-sunglasses;
+} 
+
+[data-astro-transition-scope="astro-lsgyrqk2-74"] { 
+    view-transition-name: product-brand-abicsi-rayon-vert-wormholes-sunglasses;
+} 
+
+[data-astro-transition-scope="astro-yspn4n2n-76"] { 
+    view-transition-name: product-price-abicsi-rayon-vert-wormholes-sunglasses;
+} 
+
+[data-astro-transition-scope="astro-3vugyntt-77"] { 
+    view-transition-name: product-tile-on-running-mens-performance-tank-glacier;
+} 
+
+[data-astro-transition-scope="astro-lsgyrqk2-78"] { 
+    view-transition-name: product-brand-on-running-mens-performance-tank-glacier;
+} 
+
+[data-astro-transition-scope="astro-yspn4n2n-80"] { 
+    view-transition-name: product-price-on-running-mens-performance-tank-glacier;
+} 
+
+[data-astro-transition-scope="astro-3vugyntt-81"] { 
+    view-transition-name: product-tile-on-running-cloudboom-strike-ls-lightspray;
+} 
+
+[data-astro-transition-scope="astro-lsgyrqk2-82"] { 
+    view-transition-name: product-brand-on-running-cloudboom-strike-ls-lightspray;
+} 
+
+[data-astro-transition-scope="astro-yspn4n2n-84"] { 
+    view-transition-name: product-price-on-running-cloudboom-strike-ls-lightspray;
+} 
+
+[data-astro-transition-scope="astro-3vugyntt-85"] { 
+    view-transition-name: product-tile-alex-zono-reflector-shorts-gold;
+} 
+
+[data-astro-transition-scope="astro-lsgyrqk2-86"] { 
+    view-transition-name: product-brand-alex-zono-reflector-shorts-gold;
+} 
+
+[data-astro-transition-scope="astro-yspn4n2n-88"] { 
+    view-transition-name: product-price-alex-zono-reflector-shorts-gold;
+} 
+
+[data-astro-transition-scope="astro-3vugyntt-89"] { 
+    view-transition-name: product-tile-alex-zono-i-dig-running-trucker-hat;
+} 
+
+[data-astro-transition-scope="astro-lsgyrqk2-90"] { 
+    view-transition-name: product-brand-alex-zono-i-dig-running-trucker-hat;
+} 
+
+[data-astro-transition-scope="astro-yspn4n2n-92"] { 
+    view-transition-name: product-price-alex-zono-i-dig-running-trucker-hat;
+} 
+
+[data-astro-transition-scope="astro-3vugyntt-93"] { 
+    view-transition-name: product-tile-ciele-fstcap-qa-elite-hafnographic;
+} 
+
+[data-astro-transition-scope="astro-lsgyrqk2-94"] { 
+    view-transition-name: product-brand-ciele-fstcap-qa-elite-hafnographic;
+} 
+
+[data-astro-transition-scope="astro-yspn4n2n-96"] { 
+    view-transition-name: product-price-ciele-fstcap-qa-elite-hafnographic;
+} 
+
+[data-astro-transition-scope="astro-3vugyntt-97"] { 
+    view-transition-name: product-tile-on-running-cloudeclipse-alloy-white-shoes;
+} 
+
+[data-astro-transition-scope="astro-lsgyrqk2-98"] { 
+    view-transition-name: product-brand-on-running-cloudeclipse-alloy-white-shoes;
+} 
+
+[data-astro-transition-scope="astro-yspn4n2n-100"] { 
+    view-transition-name: product-price-on-running-cloudeclipse-alloy-white-shoes;
+} 
+
+[data-astro-transition-scope="astro-3vugyntt-101"] { 
+    view-transition-name: product-tile-janji-ws-pace-sports-bra-running;
+} 
+
+[data-astro-transition-scope="astro-lsgyrqk2-102"] { 
+    view-transition-name: product-brand-janji-ws-pace-sports-bra-running;
+} 
+
+[data-astro-transition-scope="astro-yspn4n2n-104"] { 
+    view-transition-name: product-price-janji-ws-pace-sports-bra-running;
+} 
+
+[data-astro-transition-scope="astro-3vugyntt-105"] { 
+    view-transition-name: product-tile-janji-afo-hyperlight-cap-fir;
+} 
+
+[data-astro-transition-scope="astro-lsgyrqk2-106"] { 
+    view-transition-name: product-brand-janji-afo-hyperlight-cap-fir;
+} 
+
+[data-astro-transition-scope="astro-yspn4n2n-108"] { 
+    view-transition-name: product-price-janji-afo-hyperlight-cap-fir;
+} 
+
+[data-astro-transition-scope="astro-3vugyntt-109"] { 
+    view-transition-name: product-tile-nike-marquee-edge-mirrored-running-sunglasses;
+} 
+
+[data-astro-transition-scope="astro-lsgyrqk2-110"] { 
+    view-transition-name: product-brand-nike-marquee-edge-mirrored-running-sunglasses;
+} 
+
+[data-astro-transition-scope="astro-yspn4n2n-112"] { 
+    view-transition-name: product-price-nike-marquee-edge-mirrored-running-sunglasses;
+} 
+
+[data-astro-transition-scope="astro-3vugyntt-113"] { 
+    view-transition-name: product-tile-new-balance-action-bronson-rosewater-1906r;
+} 
+
+[data-astro-transition-scope="astro-lsgyrqk2-114"] { 
+    view-transition-name: product-brand-new-balance-action-bronson-rosewater-1906r;
+} 
+
+[data-astro-transition-scope="astro-yspn4n2n-116"] { 
+    view-transition-name: product-price-new-balance-action-bronson-rosewater-1906r;
+} 
+
+[data-astro-transition-scope="astro-3vugyntt-117"] { 
+    view-transition-name: product-tile-heartbreak-coeur-brise-tee-paris-olympics-2024;
+} 
+
+[data-astro-transition-scope="astro-lsgyrqk2-118"] { 
+    view-transition-name: product-brand-heartbreak-coeur-brise-tee-paris-olympics-2024;
+} 
+
+[data-astro-transition-scope="astro-yspn4n2n-120"] { 
+    view-transition-name: product-price-heartbreak-coeur-brise-tee-paris-olympics-2024;
+} 
+
+[data-astro-transition-scope="astro-3vugyntt-121"] { 
+    view-transition-name: product-tile-apple-watch-ultra-2;
+} 
+
+[data-astro-transition-scope="astro-lsgyrqk2-122"] { 
+    view-transition-name: product-brand-apple-watch-ultra-2;
+} 
+
+[data-astro-transition-scope="astro-yspn4n2n-124"] { 
+    view-transition-name: product-price-apple-watch-ultra-2;
+} 
+
+[data-astro-transition-scope="astro-3vugyntt-125"] { 
+    view-transition-name: product-tile-on-running-cloudspike-citius-white-flame-prism;
+} 
+
+[data-astro-transition-scope="astro-lsgyrqk2-126"] { 
+    view-transition-name: product-brand-on-running-cloudspike-citius-white-flame-prism;
+} 
+
+[data-astro-transition-scope="astro-yspn4n2n-128"] { 
+    view-transition-name: product-price-on-running-cloudspike-citius-white-flame-prism;
+} 
+
+input { 
+    font-family: inherit; 
+    font-feature-settings: inherit; 
+    font-variation-settings: inherit; 
+    font-size: 100%; 
+    font-weight: inherit; 
+    line-height: inherit; 
+    letter-spacing: inherit; 
+    color: inherit; 
+    margin: 0; 
+    padding: 0;
+} 
+
+.gro-dis\/product-thumb:hover .group-hover\/product-thumb\:text-pink-400 { 
+    --tw-text-opacity: 1; 
+    color: rgb(244 114 182 / var(--tw-text-opacity));
+} 
+
+h3 { 
+    font-size: inherit; 
+    font-weight: inherit;
+} 
+
+h3 { 
+    margin: 0;
+} 
+
+.mr-zwb { 
+    margin-right: 1rem;
+} 
+
+.leading-fxg { 
+    line-height: 1.625;
+} 
+
+[data-astro-transition-scope="astro-6dyowgo6-3"] { 
+    view-transition-name: product-name-ciele-w-dbsshort-elite-dark-rocks;
+} 
+
+[data-astro-transition-scope="astro-6dyowgo6-7"] { 
+    view-transition-name: product-name-running-order-adasi-4-short;
+} 
+
+[data-astro-transition-scope="astro-6dyowgo6-11"] { 
+    view-transition-name: product-name-oakley-latch-panel-neon-orange-prizm-bronze-running-sunglasses;
+} 
+
+[data-astro-transition-scope="astro-6dyowgo6-15"] { 
+    view-transition-name: product-name-balmoral-running-title-t-shirt;
+} 
+
+[data-astro-transition-scope="astro-6dyowgo6-19"] { 
+    view-transition-name: product-name-pruzan-mesh-running-singlet;
+} 
+
+[data-astro-transition-scope="astro-6dyowgo6-23"] { 
+    view-transition-name: product-name-satisfy-merino-tube-running-socks-white;
+} 
+
+[data-astro-transition-scope="astro-6dyowgo6-27"] { 
+    view-transition-name: product-name-tracksmith-van-cortlandt-tee-federation-collection;
+} 
+
+[data-astro-transition-scope="astro-6dyowgo6-31"] { 
+    view-transition-name: product-name-arcteryx-vertex-alpine-shoe-solaris;
+} 
+
+[data-astro-transition-scope="astro-6dyowgo6-35"] { 
+    view-transition-name: product-name-new-balance-fresh-foam-x-balos-running-shoe;
+} 
+
+[data-astro-transition-scope="astro-6dyowgo6-39"] { 
+    view-transition-name: product-name-nike-pegasus-41-running-shoe-electric-safari-olympic-fv2229-900;
+} 
+
+[data-astro-transition-scope="astro-6dyowgo6-43"] { 
+    view-transition-name: product-name-nike-zoomx-dragonfly-2-electric-pack-fv2326-900;
+} 
+
+[data-astro-transition-scope="astro-6dyowgo6-47"] { 
+    view-transition-name: product-name-crocs-quick-trail-low-satisfy-moss;
+} 
+
+[data-astro-transition-scope="astro-6dyowgo6-51"] { 
+    view-transition-name: product-name-dv-2xu-desert-comp-short-carbon-running-halftights;
+} 
+
+[data-astro-transition-scope="astro-6dyowgo6-55"] { 
+    view-transition-name: product-name-tracksmith-van-cortlandt-singlet-federation-collection-ivory-blush;
+} 
+
+[data-astro-transition-scope="astro-6dyowgo6-59"] { 
+    view-transition-name: product-name-tracksmith-federation-blazer-navy;
+} 
+
+[data-astro-transition-scope="astro-6dyowgo6-63"] { 
+    view-transition-name: product-name-nike-dri-fit-adv-fly-unstructured-aerobill-aeroadapt-cap-black-anthracite;
+} 
+
+[data-astro-transition-scope="astro-6dyowgo6-67"] { 
+    view-transition-name: product-name-adidas-mens-adizero-prime-sp3-aluminium-core-black;
+} 
+
+[data-astro-transition-scope="astro-6dyowgo6-71"] { 
+    view-transition-name: product-name-saucony-endorphin-pro-4-running-shoe;
+} 
+
+[data-astro-transition-scope="astro-6dyowgo6-75"] { 
+    view-transition-name: product-name-abicsi-rayon-vert-wormholes-sunglasses;
+} 
+
+[data-astro-transition-scope="astro-6dyowgo6-79"] { 
+    view-transition-name: product-name-on-running-mens-performance-tank-glacier;
+} 
+
+[data-astro-transition-scope="astro-6dyowgo6-83"] { 
+    view-transition-name: product-name-on-running-cloudboom-strike-ls-lightspray;
+} 
+
+[data-astro-transition-scope="astro-6dyowgo6-87"] { 
+    view-transition-name: product-name-alex-zono-reflector-shorts-gold;
+} 
+
+[data-astro-transition-scope="astro-6dyowgo6-91"] { 
+    view-transition-name: product-name-alex-zono-i-dig-running-trucker-hat;
+} 
+
+[data-astro-transition-scope="astro-6dyowgo6-95"] { 
+    view-transition-name: product-name-ciele-fstcap-qa-elite-hafnographic;
+} 
+
+[data-astro-transition-scope="astro-6dyowgo6-99"] { 
+    view-transition-name: product-name-on-running-cloudeclipse-alloy-white-shoes;
+} 
+
+[data-astro-transition-scope="astro-6dyowgo6-103"] { 
+    view-transition-name: product-name-janji-ws-pace-sports-bra-running;
+} 
+
+[data-astro-transition-scope="astro-6dyowgo6-107"] { 
+    view-transition-name: product-name-janji-afo-hyperlight-cap-fir;
+} 
+
+[data-astro-transition-scope="astro-6dyowgo6-111"] { 
+    view-transition-name: product-name-nike-marquee-edge-mirrored-running-sunglasses;
+} 
+
+[data-astro-transition-scope="astro-6dyowgo6-115"] { 
+    view-transition-name: product-name-new-balance-action-bronson-rosewater-1906r;
+} 
+
+[data-astro-transition-scope="astro-6dyowgo6-119"] { 
+    view-transition-name: product-name-heartbreak-coeur-brise-tee-paris-olympics-2024;
+} 
+
+[data-astro-transition-scope="astro-6dyowgo6-123"] { 
+    view-transition-name: product-name-apple-watch-ultra-2;
+} 
+
+[data-astro-transition-scope="astro-6dyowgo6-127"] { 
+    view-transition-name: product-name-on-running-cloudspike-citius-white-flame-prism;
+} 
+
+.size-\[15px\] { 
+    width: 15px; 
+    height: 15px;
+} 
+
+.fill-none { 
+    fill: none;
+} 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@keyframes mmfadeOut { 
+  0% {  
+  }  
+  100% {  
+  }  
+
+} 
+@keyframes mmslideOut { 
+  0% {  
+  }  
+  100% {  
+  }  
+
+} 
+@keyframes slide-up-blur { 
+  0% {  
+      opacity: 0; 
+      filter: blur(4px); 
+      transform: translateY(8px); 
+      opacity: 0; 
+      filter: blur(4px); 
+      transform: translateY(8px); 
+  }  
+  100% {  
+      opacity: 1; 
+      filter: blur(0); 
+      transform: translateY(0); 
+      opacity: 1; 
+      filter: blur(0px); 
+      transform: translateY(0px); 
+  }  
+
+} 
+@keyframes scaleIn { 
+  0% {  
+      opacity: 0; 
+      scale: .5; 
+      opacity: 0; 
+      scale: 0.5; 
+  }  
+  30% {  
+      opacity: .4; 
+      scale: .6; 
+      opacity: 0.4; 
+      scale: 0.6; 
+  }  
+  40% {  
+      scale: .7; 
+      scale: 0.7; 
+  }  
+  60% {  
+      opacity: .7; 
+      scale: .95; 
+      opacity: 0.7; 
+      scale: 0.95; 
+  }  
+  80% {  
+      opacity: 1.05; 
+      scale: 1; 
+      opacity: 1.05; 
+      scale: 1; 
+  }  
+  100% {  
+      opacity: 1; 
+      scale: 1; 
+      opacity: 1; 
+      scale: 1; 
+  }  
+
+} 
+@keyframes blurIn { 
+  0% {  
+      filter: blur(10px); 
+      opacity: 0; 
+      filter: blur(10px); 
+      opacity: 0; 
+  }  
+  100% {  
+      opacity: 1; 
+      filter: blur(0); 
+      opacity: 1; 
+      filter: blur(0px); 
+  }  
+
+} 
+@keyframes fadeIn { 
+  0% {  
+      opacity: 0; 
+      opacity: 0; 
+  }  
+  100% {  
+      opacity: 1; 
+      opacity: 1; 
+  }  
+
+} 
+/* These were inline style tags. Uses id+class to override almost everything */
+#style-eQWvh.style-eQWvh {  
+   display: flex;  
+}  
+#style-hNhDg.style-hNhDg {  
+   top: 464px;  
+    left: 1313px;  
+    height: 0px;  
+    width: 0px;  
+}  
+#style-pyioh.style-pyioh {  
+   top: 464px;  
+    left: 1672px;  
+    height: 0px;  
+    width: 0px;  
+}  
+#style-ZPXk2.style-ZPXk2 {  
+   top: 825px;  
+    left: 1313px;  
+    height: 0px;  
+    width: 0px;  
+}  
+#style-OpeK9.style-OpeK9 {  
+   top: 464px;  
+    left: 1311px;  
+    height: 0px;  
+    width: 0px;  
+}  
+#style-qdjkl.style-qdjkl {  
+   top: -2px;  
+    left: 0px;  
+    height: 0px;  
+    width: 0px;  
+}  
+#style-3aqW6.style-3aqW6 {  
+   top: -4px;  
+    left: -4px;  
+    height: 0px;  
+    width: 0px;  
+}  
+#style-YqZjm.style-YqZjm {  
+   top: 54px;  
+    left: 0px;  
+    height: 0px;  
+    width: 0px;  
+}  
+#style-G7Pvg.style-G7Pvg {  
+   top: -2px;  
+    left: -2px;  
+    height: 0px;  
+    width: 0px;  
+}  
+#style-t27zL.style-t27zL {  
+   top: 0px;  
+    left: 0px;  
+    position: absolute;  
+}  
+#style-VPQyO.style-VPQyO {  
+   top: 50px;  
+    left: 161px;  
+    height: 0px;  
+    width: 0px;  
+}  
+#style-ivnSg.style-ivnSg {  
+   top: 50px;  
+    left: 1697px;  
+    height: 0px;  
+    width: 0px;  
+}  
+#style-k17AC.style-k17AC {  
+   top: 54px;  
+    left: 161px;  
+    height: 0px;  
+    width: 0px;  
+}  
+#style-hfETh.style-hfETh {  
+   top: 50px;  
+    left: 159px;  
+    height: 0px;  
+    width: 0px;  
+}  
+#style-a6Y3Q.style-a6Y3Q {  
+   top: -2px;  
+    left: 0px;  
+    height: 0px;  
+    width: 0px;  
+}  
+#style-pthmA.style-pthmA {  
+   top: -4px;  
+    left: -4px;  
+    height: 0px;  
+    width: 0px;  
+}  
+#style-N1IH6.style-N1IH6 {  
+   top: -4px;  
+    left: -4px;  
+    height: 0px;  
+    width: 0px;  
+}  
+#style-BloFz.style-BloFz {  
+   top: -2px;  
+    left: -2px;  
+    height: 0px;  
+    width: 0px;  
+}  
+#style-dgH66.style-dgH66 {  
+   top: 0px;  
+    left: 0px;  
+    position: absolute;  
+}  
+#sni-ehh.style-xEMNK {  
+   left: 1762px;  
+    top: 0px;  
+}  
+/* These were inline style tags. Uses id+class to override almost everything */
+#style-1Gg1M.style-1Gg1M {  
+   display: flex;  
+}  
+#style-aHCgt.style-aHCgt {  
+   top: 464px;  
+    left: 1313px;  
+    height: 0px;  
+    width: 0px;  
+}  
+#style-TSTX6.style-TSTX6 {  
+   top: 464px;  
+    left: 1672px;  
+    height: 0px;  
+    width: 0px;  
+}  
+#style-AjcSa.style-AjcSa {  
+   top: 825px;  
+    left: 1313px;  
+    height: 0px;  
+    width: 0px;  
+}  
+#style-yWyHm.style-yWyHm {  
+   top: 464px;  
+    left: 1311px;  
+    height: 0px;  
+    width: 0px;  
+}  
+#style-VMM35.style-VMM35 {  
+   top: -2px;  
+    left: 0px;  
+    height: 0px;  
+    width: 0px;  
+}  
+#style-8CteS.style-8CteS {  
+   top: -4px;  
+    left: -4px;  
+    height: 0px;  
+    width: 0px;  
+}  
+#style-5beer.style-5beer {  
+   top: 54px;  
+    left: 0px;  
+    height: 0px;  
+    width: 0px;  
+}  
+#style-Fw5I3.style-Fw5I3 {  
+   top: -2px;  
+    left: -2px;  
+    height: 0px;  
+    width: 0px;  
+}  
+#style-hmNEr.style-hmNEr {  
+   top: 0px;  
+    left: 0px;  
+    position: absolute;  
+}  
+#style-M6iYv.style-M6iYv {  
+   top: 50px;  
+    left: 161px;  
+    height: 0px;  
+    width: 0px;  
+}  
+#style-EDcIF.style-EDcIF {  
+   top: 50px;  
+    left: 1697px;  
+    height: 0px;  
+    width: 0px;  
+}  
+#style-YeCI9.style-YeCI9 {  
+   top: 54px;  
+    left: 161px;  
+    height: 0px;  
+    width: 0px;  
+}  
+#style-8kwW5.style-8kwW5 {  
+   top: 50px;  
+    left: 159px;  
+    height: 0px;  
+    width: 0px;  
+}  
+#style-1HynC.style-1HynC {  
+   top: -2px;  
+    left: 0px;  
+    height: 0px;  
+    width: 0px;  
+}  
+#style-OrMAr.style-OrMAr {  
+   top: -4px;  
+    left: -4px;  
+    height: 0px;  
+    width: 0px;  
+}  
+#style-iSy6e.style-iSy6e {  
+   top: -4px;  
+    left: -4px;  
+    height: 0px;  
+    width: 0px;  
+}  
+#style-H5DQE.style-H5DQE {  
+   top: -2px;  
+    left: -2px;  
+    height: 0px;  
+    width: 0px;  
+}  
+#style-SFXIW.style-SFXIW {  
+   top: 0px;  
+    left: 0px;  
+    position: absolute;  
+}  
+#sni-31e.style-HZOVN {  
+   left: 1762px;  
+    top: 0px;  
+}  

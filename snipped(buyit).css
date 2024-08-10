@@ -1,0 +1,1487 @@
+  body {  
+    line-height:1.5;
+    font-family:var(--font-area);
+  }  
+body { 
+/* CSS Variables that may have been missed get put on body */ 
+    --tw-translate-x:  0;  
+    --tw-translate-y:  0;  
+    --tw-rotate:  0;  
+    --tw-skew-x:  0;  
+    --tw-skew-y:  0;  
+    --tw-scale-x:  1;  
+    --tw-scale-y:  1;  
+    --tw-ring-offset-width:  0px;  
+    --tw-ring-offset-color:  #fff;  
+    --tw-ring-color:  rgb(59 130 246 / .5);  
+    --tw-ring-offset-shadow:  0 0 #0000;  
+    --tw-ring-shadow:  0 0 #0000;  
+    --tw-shadow:  0 0 #0000;  
+    --tw-shadow-colored:  0 0 #0000; 
+    --tw-translate-x:  0;  
+    --tw-translate-y:  0;  
+    --tw-rotate:  0;  
+    --tw-skew-x:  0;  
+    --tw-skew-y:  0;  
+    --tw-scale-x:  1;  
+    --tw-scale-y:  1;  
+    --tw-ring-offset-width:  0px;  
+    --tw-ring-offset-color:  #fff;  
+    --tw-ring-color:  rgb(59 130 246 / .5);  
+    --tw-ring-offset-shadow:  0 0 #0000;  
+    --tw-ring-shadow:  0 0 #0000;  
+    --tw-shadow:  0 0 #0000;  
+    --tw-shadow-colored:  0 0 #0000; 
+    --tw-translate-x:  0;  
+    --tw-translate-y:  0;  
+    --tw-rotate:  0;  
+    --tw-skew-x:  0;  
+    --tw-skew-y:  0;  
+    --tw-scale-x:  1;  
+    --tw-scale-y:  1;  
+    --tw-ring-offset-width:  0px;  
+    --tw-ring-offset-color:  #fff;  
+    --tw-ring-color:  rgb(59 130 246 / .5);  
+    --tw-ring-offset-shadow:  0 0 #0000;  
+    --tw-ring-shadow:  0 0 #0000;  
+    --tw-shadow:  0 0 #0000;  
+    --tw-shadow-colored:  0 0 #0000; 
+    --tw-bg-opacity:  1;  
+    --tw-bg-opacity:  1;  
+    --tw-bg-opacity:  1;  
+    --tw-text-opacity:  1;  
+    --tw-shadow:  0 1px 2px 0 rgb(0 0 0 / .05);  
+    --tw-shadow-colored:  0 1px 2px 0 var(--tw-shadow-color);  
+    --tw-shadow-color:  rgb(115 115 115 / .2);  
+    --tw-shadow:  var(--tw-shadow-colored); 
+    --tw-text-opacity:  1;  
+    --tw-text-opacity:  1;  
+    --tw-text-opacity:  1;  
+    --tw-space-y-reverse:  0;  
+    --tw-text-opacity:  1;  
+    --tw-bg-opacity:  1;  
+    --tw-backdrop-blur:  blur(4px);  
+    --tw-backdrop-blur:  blur(2px);  
+    --tw-text-opacity:  1;  
+    --tw-text-opacity:  1;  
+    --tw-text-opacity:  1;  
+    --tw-text-opacity:  1;  
+    --tw-rotate:  45deg;  
+    --tw-bg-opacity:  1;  
+    --tw-bg-opacity:  1;  
+    --tw-rotate:  45deg;  
+    --tw-scale-x:  1.05;  
+    --tw-scale-y:  1.05;  
+    --tw-space-x-reverse:  0;  
+    --tw-ring-offset-shadow:  var(--tw-ring-inset) 0 0 0 var(--tw-ring-offset-width) var(--tw-ring-offset-color);  
+    --tw-ring-shadow:  var(--tw-ring-inset) 0 0 0 calc(1px + var(--tw-ring-offset-width)) var(--tw-ring-color);  
+    --tw-ring-color:  rgb(0 0 0 / .1); 
+    --tw-bg-opacity:  1;  
+    --tw-text-opacity:  1;  
+    --tw-bg-opacity:  1;  
+} 
+
+* { 
+    box-sizing: border-box; 
+    border-width: 0; 
+    border-style: solid; 
+    border-color: #e5e7eb;
+} 
+
+* { 
+    --tw-translate-x: 0; 
+    --tw-translate-y: 0; 
+    --tw-rotate: 0; 
+    --tw-skew-x: 0; 
+    --tw-skew-y: 0; 
+    --tw-scale-x: 1; 
+    --tw-scale-y: 1; 
+    --tw-ring-offset-width: 0px; 
+    --tw-ring-offset-color: #fff; 
+    --tw-ring-color: rgb(59 130 246 / .5); 
+    --tw-ring-offset-shadow: 0 0 #0000; 
+    --tw-ring-shadow: 0 0 #0000; 
+    --tw-shadow: 0 0 #0000; 
+    --tw-shadow-colored: 0 0 #0000;
+} 
+
+html { 
+    line-height: 1.5; 
+    -webkit-text-size-adjust: 100%; 
+    -moz-tab-size: 4; 
+    -o-tab-size: 4; 
+    tab-size: 4; 
+    font-family: var(--font-area); 
+    font-feature-settings: normal; 
+    font-variation-settings: normal; 
+    -webkit-tap-highlight-color: transparent;
+} 
+
+html { 
+    scroll-behavior: smooth; 
+    font-display: swap;
+} 
+
+:root { 
+    color-scheme: light; 
+    --theme-text: 203deg 11% 15%; 
+} 
+
+:root { 
+    --font-area: Area_Normal, '_font_fallback_1695225064090', sans-serif;
+} 
+
+:root { 
+    --font-supply: Supply, '_font_fallback_885055247389', monospace;
+} 
+
+body { 
+    margin: 0; 
+    line-height: inherit;
+} 
+
+body { 
+    font-size: .875rem; 
+    line-height: 1.25rem; 
+    font-weight: 500;
+} 
+
+.rel-wck { 
+    position: relative;
+} 
+
+.fle-ghl { 
+    display: flex;
+} 
+
+.h-rb3 { 
+    height: 100%;
+} 
+
+.min-h-bov { 
+    min-height: 100vh;
+} 
+
+.w-7fa { 
+    width: 100%;
+} 
+
+.col-s1w { 
+    flex-direction: column;
+} 
+
+.item-y55 { 
+    align-items: center;
+} 
+
+.ant-fkt { 
+    -webkit-font-smoothing: antialiased; 
+    -moz-osx-font-smoothing: grayscale;
+} 
+
+*,:before,:after { 
+    box-sizing: border-box; 
+    border-width: 0; 
+    border-style: solid; 
+    border-color: #e5e7eb;
+} 
+
+*,:before,:after { 
+    --tw-translate-x: 0; 
+    --tw-translate-y: 0; 
+    --tw-rotate: 0; 
+    --tw-skew-x: 0; 
+    --tw-skew-y: 0; 
+    --tw-scale-x: 1; 
+    --tw-scale-y: 1; 
+    --tw-ring-offset-width: 0px; 
+    --tw-ring-offset-color: #fff; 
+    --tw-ring-color: rgb(59 130 246 / .5); 
+    --tw-ring-offset-shadow: 0 0 #0000; 
+    --tw-ring-shadow: 0 0 #0000; 
+    --tw-shadow: 0 0 #0000; 
+    --tw-shadow-colored: 0 0 #0000;
+} 
+
+:backdrop { 
+    --tw-translate-x: 0; 
+    --tw-translate-y: 0; 
+    --tw-rotate: 0; 
+    --tw-skew-x: 0; 
+    --tw-skew-y: 0; 
+    --tw-scale-x: 1; 
+    --tw-scale-y: 1; 
+    --tw-ring-offset-width: 0px; 
+    --tw-ring-offset-color: #fff; 
+    --tw-ring-color: rgb(59 130 246 / .5); 
+    --tw-ring-offset-shadow: 0 0 #0000; 
+    --tw-ring-shadow: 0 0 #0000; 
+    --tw-shadow: 0 0 #0000; 
+    --tw-shadow-colored: 0 0 #0000;
+} 
+
+:selection { 
+    color: #fff; 
+    --tw-bg-opacity: 1; 
+    background-color: rgb(37 99 235 / var(--tw-bg-opacity));
+} 
+
+.px-4ny { 
+    padding-left: 1.5rem; 
+    padding-right: 1.5rem;
+} 
+
+.py-tzs { 
+    padding-top: .25rem; 
+    padding-bottom: .25rem;
+} 
+
+@media (min-width: 640px){ 
+  .item-6il { 
+    align-items: center;
+  } 
+
+  .smjustify-k5m { 
+    justify-content: center;
+  } 
+}     
+
+astro-island { 
+    display: contents;
+} 
+
+.flex-fos { 
+    flex: 1 1 0%;
+} 
+
+.justify-63a { 
+    justify-content: space-between;
+} 
+
+.overflow-y-moj { 
+    overflow-y: auto;
+} 
+
+.bg-ol9 { 
+    --tw-bg-opacity: 1; 
+    background-color: rgb(255 255 255 / var(--tw-bg-opacity));
+} 
+
+.px-l82 { 
+    padding-left: 2rem; 
+    padding-right: 2rem;
+} 
+
+@media (min-width: 1024px){ 
+  .lgmax-w-screen-edx { 
+    max-width: 100%;
+  } 
+}     
+
+.astro-route-39n { 
+    position: absolute; 
+    left: 0; 
+    top: 0; 
+    clip: rect(0 0 0 0); 
+    clip-path: inset(50%); 
+    overflow: hidden; 
+    white-space: nowrap; 
+    width: 1px; 
+    height: 1px;
+} 
+
+canvas { 
+    display: block; 
+    vertical-align: middle;
+} 
+
+.row-amv { 
+    flex-direction: row;
+} 
+
+button { 
+    font-family: inherit; 
+    font-feature-settings: inherit; 
+    font-variation-settings: inherit; 
+    font-size: 100%; 
+    font-weight: inherit; 
+    line-height: inherit; 
+    letter-spacing: inherit; 
+    color: inherit; 
+    margin: 0; 
+    padding: 0;
+} 
+
+button { 
+    text-transform: none;
+} 
+
+button { 
+    -webkit-appearance: button; 
+    background-color: transparent; 
+    background-image: none;
+} 
+
+button { 
+    cursor: pointer;
+} 
+
+.abs-nbo { 
+    position: absolute;
+} 
+
+.right-thg { 
+    right: 2rem;
+} 
+
+.top-\[18px\] { 
+    top: 18px;
+} 
+
+.h-\[32px\] { 
+    height: 32px;
+} 
+
+.cursor-ijk { 
+    cursor: pointer;
+} 
+
+.gap-x-ysw { 
+    -moz-column-gap: .5rem; 
+    column-gap: .5rem;
+} 
+
+.rounded-32a { 
+    border-radius: 9999px;
+} 
+
+.bg-9sn { 
+    --tw-bg-opacity: 1; 
+    background-color: rgb(252 82 0 / var(--tw-bg-opacity));
+} 
+
+.px-j6j { 
+    padding-left: .75rem; 
+    padding-right: .75rem;
+} 
+
+.text-po8 { 
+    font-size: .75rem; 
+    line-height: 1rem;
+} 
+
+.font-wjh { 
+    font-weight: 700;
+} 
+
+.leading-4cx { 
+    line-height: 1;
+} 
+
+.text-irk { 
+    --tw-text-opacity: 1; 
+    color: rgb(255 255 255 / var(--tw-text-opacity));
+} 
+
+.shadow-t2f { 
+    --tw-shadow: 0 1px 2px 0 rgb(0 0 0 / .05); 
+    --tw-shadow-colored: 0 1px 2px 0 var(--tw-shadow-color); 
+    box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000),var(--tw-ring-shadow, 0 0 #0000),var(--tw-shadow);
+} 
+
+.shadow-neutral-500\/20 { 
+    --tw-shadow-color: rgb(115 115 115 / .2); 
+    --tw-shadow: var(--tw-shadow-colored);
+} 
+
+.tra-82b { 
+    transition-property: color,background-color,border-color,text-decoration-color,fill,stroke,opacity,box-shadow,transform,filter,-webkit-backdrop-filter; 
+    transition-property: color,background-color,border-color,text-decoration-color,fill,stroke,opacity,box-shadow,transform,filter,backdrop-filter; 
+    transition-property: color,background-color,border-color,text-decoration-color,fill,stroke,opacity,box-shadow,transform,filter,backdrop-filter,-webkit-backdrop-filter; 
+    transition-timing-function: cubic-bezier(.4,0,.2,1); 
+    transition-duration: .15s;
+} 
+
+.mx-eyk { 
+    margin-left: auto; 
+    margin-right: auto;
+} 
+
+.mb-76r { 
+    margin-bottom: 2rem;
+} 
+
+.mt-oet { 
+    margin-top: 3rem;
+} 
+
+.mt-xxj { 
+    margin-top: 2rem;
+} 
+
+.item-sja { 
+    align-items: flex-start;
+} 
+
+.justify-lex { 
+    justify-content: center;
+} 
+
+.gap-y-zy7 { 
+    row-gap: .5rem;
+} 
+
+.self-kww { 
+    align-self: flex-end;
+} 
+
+.justify-self-8kk { 
+    justify-self: end;
+} 
+
+.border-ezp { 
+    border-top-width: 1px;
+} 
+
+.border-gray-zle { 
+    border-color: #f3f4f6;
+} 
+
+.pb-e2y { 
+    padding-bottom: 3rem;
+} 
+
+.pt-cw6 { 
+    padding-top: 3rem;
+} 
+
+.align-9de { 
+    vertical-align: top;
+} 
+
+.font-4g3 { 
+    font-weight: 400;
+} 
+
+.text-3xm { 
+    --tw-text-opacity: 1; 
+    color: rgb(75 85 99 / var(--tw-text-opacity));
+} 
+
+@media (min-width: 640px){ 
+  .row-c9l { 
+    flex-direction: row;
+  } 
+
+  .smjustify-1m3 { 
+    justify-content: space-between;
+  } 
+
+  .text-pyv { 
+    font-size: .75rem; 
+    line-height: 1rem;
+  } 
+}     
+
+.mt-bxi { 
+    margin-top: 1rem;
+} 
+
+.text-dxz { 
+    font-size: .875rem; 
+    line-height: 1.25rem;
+} 
+
+.font-gfn { 
+    font-weight: 500;
+} 
+
+.top-\[0\.5px\] { 
+    top: .5px;
+} 
+
+.inline-p2i { 
+    display: inline-flex;
+} 
+
+.gap-6kf { 
+    gap: .5rem;
+} 
+
+.ease-in-emw { 
+    transition-timing-function: cubic-bezier(.4,0,.2,1);
+} 
+
+h1 { 
+    font-size: inherit; 
+    font-weight: inherit;
+} 
+
+h1 { 
+    margin: 0;
+} 
+
+.sr-djw { 
+    position: absolute; 
+    width: 1px; 
+    height: 1px; 
+    padding: 0; 
+    margin: -1px; 
+    overflow: hidden; 
+    clip: rect(0,0,0,0); 
+    white-space: nowrap; 
+    border-width: 0;
+} 
+
+.text-omb { 
+    font-size: 1.25rem; 
+    line-height: 1.75rem;
+} 
+
+.max-w-screen-a3p { 
+    max-width: 1024px;
+} 
+
+.mt-7bl { 
+    margin-top: 6rem;
+} 
+
+.grid-jyn { 
+    display: grid;
+} 
+
+.grid-tgc { 
+    grid-template-columns: repeat(1,minmax(0,1fr));
+} 
+
+.gap-q4n { 
+    gap: 2rem;
+} 
+
+@media (min-width: 640px){ 
+  .grid-od9 { 
+    grid-template-columns: repeat(4,minmax(0,1fr));
+  } 
+}     
+
+.max-w-ep4 { 
+    max-width: 24rem;
+} 
+
+@media (min-width: 640px){ 
+  .smgap-x-y9q { 
+    -moz-column-gap: 0px; 
+    column-gap: 0px;
+  } 
+}     
+
+img { 
+    display: block; 
+    vertical-align: middle;
+} 
+
+img { 
+    max-width: 100%; 
+    height: auto;
+} 
+
+.opacity-ws1 { 
+    opacity: .5;
+} 
+
+.transition-e7l { 
+    transition-property: all; 
+    transition-timing-function: cubic-bezier(.4,0,.2,1); 
+    transition-duration: .15s;
+} 
+
+.gro-2w6\/back-link:hover .group-hover\/back-link\:opacity-100 { 
+    opacity: 1;
+} 
+
+.top-0\.5 { 
+    top: .125rem;
+} 
+
+.gro-2w6\/back-link:hover .group-hover\/back-link\:opacity-100, .gro-2w6\/product-thumb:hover .group-hover\/product-thumb\:opacity-100 { 
+    opacity: 1;
+} 
+
+.max-w-gtc { 
+    max-width: 32rem;
+} 
+
+.text-hlk { 
+    text-wrap: pretty;
+} 
+
+.text-hts { 
+    --tw-text-opacity: 1; 
+    color: rgb(0 0 0 / var(--tw-text-opacity));
+} 
+
+p { 
+    margin: 0;
+} 
+
+.text-534 { 
+    --tw-text-opacity: 1; 
+    color: rgb(107 114 128 / var(--tw-text-opacity));
+} 
+
+.space-y-ggh > :not([hidden]) ~ :not([hidden])  { 
+    --tw-space-y-reverse: 0; 
+    margin-top: calc(1rem * calc(1 - var(--tw-space-y-reverse))); 
+    margin-bottom: calc(1rem * var(--tw-space-y-reverse));
+} 
+
+.me-tcz { 
+    margin-inline-end: 0px;
+} 
+
+a { 
+    color: inherit; 
+    text-decoration: inherit;
+} 
+
+.px-ciw { 
+    padding-left: 1rem; 
+    padding-right: 1rem;
+} 
+
+.py-tqk { 
+    padding-top: .5rem; 
+    padding-bottom: .5rem;
+} 
+
+@media (min-width: 640px){ 
+  .smpx-ffg { 
+    padding-left: .5rem; 
+    padding-right: .5rem;
+  } 
+
+  .smpy-fym { 
+    padding-top: 0; 
+    padding-bottom: 0;
+  } 
+
+  .text-fzo:hover { 
+    --tw-text-opacity: 1; 
+    color: hsl(var(--theme-text) / var(--tw-text-opacity));
+  } 
+
+  .sm-x14:hover { 
+    text-decoration-line: underline;
+  } 
+}     
+
+.block-sh7 { 
+    display: inline-block;
+} 
+
+.rounded-7od { 
+    border-radius: .375rem;
+} 
+
+.p-xhi { 
+    padding: .5rem;
+} 
+
+.pt-\[0\.6rem\] { 
+    padding-top: .6rem;
+} 
+
+.hoverbg-neutral-bof:hover { 
+    --tw-bg-opacity: 1; 
+    background-color: rgb(245 245 245 / var(--tw-bg-opacity));
+} 
+
+.block-hf8 { 
+    display: block;
+} 
+
+.grid-zx7 { 
+    grid-template-columns: repeat(3,minmax(0,1fr));
+} 
+
+.gro-2w6\/product:hover .group-hover\/product\:opacity-75 { 
+    opacity: .75;
+} 
+
+.left-p5n { 
+    left: .25rem;
+} 
+
+.top-vcf { 
+    top: .25rem;
+} 
+
+.z-exb { 
+    z-index: 10;
+} 
+
+.p-jqc { 
+    padding: .25rem;
+} 
+
+.scale-ito { 
+    opacity: 0; 
+    animation: scaleIn .3s cubic-bezier(.47,1.64,.41,.8); 
+    animation-delay: .3s; 
+    animation-fill-mode: forwards;
+} 
+
+.right-bvk { 
+    right: .5rem;
+} 
+
+.top-lm5 { 
+    top: .5rem;
+} 
+
+.bg-ol9\/20 { 
+    background-color: #fff3;
+} 
+
+.backdrop-blur-pzo { 
+    --tw-backdrop-blur: blur(4px); 
+    -webkit-backdrop-filter: var(--tw-backdrop-blur) var(--tw-backdrop-brightness) var(--tw-backdrop-contrast) var(--tw-backdrop-grayscale) var(--tw-backdrop-hue-rotate) var(--tw-backdrop-invert) var(--tw-backdrop-opacity) var(--tw-backdrop-saturate) var(--tw-backdrop-sepia); 
+    backdrop-filter: var(--tw-backdrop-blur) var(--tw-backdrop-brightness) var(--tw-backdrop-contrast) var(--tw-backdrop-grayscale) var(--tw-backdrop-hue-rotate) var(--tw-backdrop-invert) var(--tw-backdrop-opacity) var(--tw-backdrop-saturate) var(--tw-backdrop-sepia);
+} 
+
+.duration-yjt { 
+    transition-duration: .5s;
+} 
+
+[data-astro-transition-scope="astro-6svi5mpu-5"] { 
+    view-transition-name: product-arrow-nike-marquee-edge-mirrored-running-sunglasses;
+} 
+
+.gro-2w6\/product-thumb:hover .group-hover\/product-thumb\:bg-white\/60 { 
+    background-color: #fff9;
+} 
+
+.overflow-o8y { 
+    overflow: hidden;
+} 
+
+.bor-jxt { 
+    border-width: 1px;
+} 
+
+.thumbnail-e5y { 
+    background-size: cover; 
+    background-position: center; 
+    animation: blurIn .3s ease-in-out forwards;
+} 
+
+.mt-r8b { 
+    margin-top: .5rem;
+} 
+
+.text-koo { 
+    font-size: 1rem; 
+    line-height: 1.5rem;
+} 
+
+.leading-how { 
+    line-height: 1.75rem;
+} 
+
+.subpixel-fkz { 
+    -webkit-font-smoothing: auto; 
+    -moz-osx-font-smoothing: auto;
+} 
+
+.spring-in-5xd { 
+    opacity: 0; 
+    animation: bounceUp .3s cubic-bezier(.47,1.64,.41,.8); 
+    animation-delay: .6s; 
+    animation-fill-mode: forwards;
+} 
+
+.fix-5jo { 
+    position: fixed;
+} 
+
+.bottom-wz3 { 
+    bottom: 0;
+} 
+
+.left-ham { 
+    left: 0;
+} 
+
+.right-tmy { 
+    right: 0;
+} 
+
+.z-\[666\] { 
+    z-index: 666;
+} 
+
+.bg-ol9\/50 { 
+    background-color: #ffffff80;
+} 
+
+.py-r8k { 
+    padding-top: .75rem; 
+    padding-bottom: .75rem;
+} 
+
+.backdrop-blur-\[2px\] { 
+    --tw-backdrop-blur: blur(2px); 
+    -webkit-backdrop-filter: var(--tw-backdrop-blur) var(--tw-backdrop-brightness) var(--tw-backdrop-contrast) var(--tw-backdrop-grayscale) var(--tw-backdrop-hue-rotate) var(--tw-backdrop-invert) var(--tw-backdrop-opacity) var(--tw-backdrop-saturate) var(--tw-backdrop-sepia); 
+    backdrop-filter: var(--tw-backdrop-blur) var(--tw-backdrop-brightness) var(--tw-backdrop-contrast) var(--tw-backdrop-grayscale) var(--tw-backdrop-hue-rotate) var(--tw-backdrop-invert) var(--tw-backdrop-opacity) var(--tw-backdrop-saturate) var(--tw-backdrop-sepia);
+} 
+
+@media (min-width: 640px){ 
+  .sm-1of { 
+    position: relative;
+  } 
+
+  .smmt-3ek { 
+    margin-top: 1.25rem;
+  } 
+
+  .smborder-dbg { 
+    border-style: none;
+  } 
+
+  .smp-f4z { 
+    padding: 0;
+  } 
+
+  .smbackdrop-blur-8qd { 
+    -webkit-backdrop-filter: var(--tw-backdrop-blur) var(--tw-backdrop-brightness) var(--tw-backdrop-contrast) var(--tw-backdrop-grayscale) var(--tw-backdrop-hue-rotate) var(--tw-backdrop-invert) var(--tw-backdrop-opacity) var(--tw-backdrop-saturate) var(--tw-backdrop-sepia); 
+    backdrop-filter: var(--tw-backdrop-blur) var(--tw-backdrop-brightness) var(--tw-backdrop-contrast) var(--tw-backdrop-grayscale) var(--tw-backdrop-hue-rotate) var(--tw-backdrop-invert) var(--tw-backdrop-opacity) var(--tw-backdrop-saturate) var(--tw-backdrop-sepia);
+  } 
+}     
+
+.spring-in-up-daq[data-astro-cid-g6l6wp67] { 
+    opacity: 0; 
+    animation: bounceUp .3s cubic-bezier(.47,1.64,.41,.8); 
+    animation-delay: .8s; 
+    animation-fill-mode: forwards;
+} 
+
+.col-o32 { 
+    grid-column: span 1 / span 1;
+} 
+
+[data-astro-transition-scope="astro-6svi5mpu-31"] { 
+    view-transition-name: product-arrow-oakley-latch-panel-neon-orange-prizm-bronze-running-sunglasses;
+} 
+
+.font-k8p { 
+    font-family: var(--font-supply);
+} 
+
+.upp-knk { 
+    text-transform: uppercase;
+} 
+
+.text-kon { 
+    --tw-text-opacity: 1; 
+    color: rgb(156 163 175 / var(--tw-text-opacity));
+} 
+
+.mt-33v { 
+    margin-top: .25rem;
+} 
+
+.item-ryv { 
+    align-items: baseline;
+} 
+
+[data-astro-transition-scope="astro-6svi5mpu-32"] { 
+    view-transition-name: product-arrow-abicsi-rayon-vert-wormholes-sunglasses;
+} 
+
+[data-astro-transition-scope="astro-6svi5mpu-33"] { 
+    view-transition-name: product-arrow-ka-yo-r-chimi-silvaner-clear-running-sunglasses;
+} 
+
+[data-astro-transition-scope="astro-6svi5mpu-34"] { 
+    view-transition-name: product-arrow-satisfy-oakley-eye-jacket-matte-olive;
+} 
+
+[data-astro-transition-scope="astro-6svi5mpu-35"] { 
+    view-transition-name: product-arrow-satisfy-oakley-straight-jacket-matte-terrain-tan-sunglasses;
+} 
+
+[data-astro-transition-scope="astro-6svi5mpu-36"] { 
+    view-transition-name: product-arrow-alba-optics-delta-ultra-org-vzum-alum;
+} 
+
+.text-96o { 
+    --tw-text-opacity: 1; 
+    color: rgb(248 113 113 / var(--tw-text-opacity));
+} 
+
+.text-4pa:hover { 
+    --tw-text-opacity: 1; 
+    color: rgb(244 114 182 / var(--tw-text-opacity));
+} 
+
+.text-acs { 
+    --tw-text-opacity: 1; 
+    color: rgb(31 41 55 / var(--tw-text-opacity));
+} 
+
+.opacity-vy7 { 
+    opacity: .4;
+} 
+
+.form-j87 { 
+    will-change: transform;
+} 
+
+.gro-2w6\/product-thumb:hover .group-hover\/product-thumb\:rotate-45 { 
+    --tw-rotate: 45deg; 
+    transform: translate(var(--tw-translate-x),var(--tw-translate-y)) rotate(var(--tw-rotate)) skew(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+} 
+
+.z-d1o { 
+    z-index: 0;
+} 
+
+.object-oa9 { 
+    -o-object-fit: contain; 
+    object-fit: contain;
+} 
+
+[data-astro-transition-scope="astro-swi2btbu-1"] { 
+    view-transition-name: product-tile-nike-marquee-edge-mirrored-running-sunglasses;
+} 
+
+.thumbnail-e5y > img  { 
+    animation: fadeIn .3s ease-in-out forwards;
+} 
+
+[data-astro-transition-scope="astro-rn5skmun-2"] { 
+    view-transition-name: product-brand-nike-marquee-edge-mirrored-running-sunglasses;
+} 
+
+.cap-jgd { 
+    text-transform: capitalize;
+} 
+
+[data-astro-transition-scope="astro-x7axkpke-3"] { 
+    view-transition-name: product-price-nike-marquee-edge-mirrored-running-sunglasses;
+} 
+
+h3 { 
+    font-size: inherit; 
+    font-weight: inherit;
+} 
+
+h3 { 
+    margin: 0;
+} 
+
+.font-i2b { 
+    font-weight: 800;
+} 
+
+[data-astro-transition-scope="astro-x2pdn4go-4"] { 
+    view-transition-name: product-name-nike-marquee-edge-mirrored-running-sunglasses;
+} 
+
+.border-nho { 
+    border-width: 0px;
+} 
+
+.bg-blue-es2 { 
+    --tw-bg-opacity: 1; 
+    background-color: rgb(37 99 235 / var(--tw-bg-opacity));
+} 
+
+.leading-yxl { 
+    line-height: 1.5;
+} 
+
+.no-onx { 
+    text-decoration-line: none;
+} 
+
+.hoverbg-blue-le7:hover { 
+    --tw-bg-opacity: 1; 
+    background-color: rgb(30 64 175 / var(--tw-bg-opacity));
+} 
+
+.flex-9s2 { 
+    flex-wrap: wrap;
+} 
+
+.gro-2w6\/product-thumb:hover .group-hover\/product-thumb\:rotate-45, .gro-2w6:hover .group-hover\:rotate-45 { 
+    --tw-rotate: 45deg; 
+    transform: translate(var(--tw-translate-x),var(--tw-translate-y)) rotate(var(--tw-rotate)) skew(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+} 
+
+.form-b77 { 
+    transition-property: transform; 
+    transition-timing-function: cubic-bezier(.4,0,.2,1); 
+    transition-duration: .15s;
+} 
+
+[data-astro-transition-scope="astro-3vugyntt-7"] { 
+    view-transition-name: product-tile-oakley-latch-panel-neon-orange-prizm-bronze-running-sunglasses;
+} 
+
+.hoverscale-bcd:hover { 
+    --tw-scale-x: 1.05; 
+    --tw-scale-y: 1.05; 
+    transform: translate(var(--tw-translate-x),var(--tw-translate-y)) rotate(var(--tw-rotate)) skew(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+} 
+
+.hov-jxg:hover { 
+    text-decoration-line: underline;
+} 
+
+[data-astro-transition-scope="astro-lsgyrqk2-8"] { 
+    view-transition-name: product-brand-oakley-latch-panel-neon-orange-prizm-bronze-running-sunglasses;
+} 
+
+[data-astro-transition-scope="astro-yspn4n2n-10"] { 
+    view-transition-name: product-price-oakley-latch-panel-neon-orange-prizm-bronze-running-sunglasses;
+} 
+
+[data-astro-transition-scope="astro-3vugyntt-11"] { 
+    view-transition-name: product-tile-abicsi-rayon-vert-wormholes-sunglasses;
+} 
+
+[data-astro-transition-scope="astro-lsgyrqk2-12"] { 
+    view-transition-name: product-brand-abicsi-rayon-vert-wormholes-sunglasses;
+} 
+
+[data-astro-transition-scope="astro-yspn4n2n-14"] { 
+    view-transition-name: product-price-abicsi-rayon-vert-wormholes-sunglasses;
+} 
+
+[data-astro-transition-scope="astro-3vugyntt-15"] { 
+    view-transition-name: product-tile-ka-yo-r-chimi-silvaner-clear-running-sunglasses;
+} 
+
+[data-astro-transition-scope="astro-lsgyrqk2-16"] { 
+    view-transition-name: product-brand-ka-yo-r-chimi-silvaner-clear-running-sunglasses;
+} 
+
+[data-astro-transition-scope="astro-yspn4n2n-18"] { 
+    view-transition-name: product-price-ka-yo-r-chimi-silvaner-clear-running-sunglasses;
+} 
+
+[data-astro-transition-scope="astro-3vugyntt-19"] { 
+    view-transition-name: product-tile-satisfy-oakley-eye-jacket-matte-olive;
+} 
+
+[data-astro-transition-scope="astro-lsgyrqk2-20"] { 
+    view-transition-name: product-brand-satisfy-oakley-eye-jacket-matte-olive;
+} 
+
+[data-astro-transition-scope="astro-yspn4n2n-22"] { 
+    view-transition-name: product-price-satisfy-oakley-eye-jacket-matte-olive;
+} 
+
+[data-astro-transition-scope="astro-3vugyntt-23"] { 
+    view-transition-name: product-tile-satisfy-oakley-straight-jacket-matte-terrain-tan-sunglasses;
+} 
+
+[data-astro-transition-scope="astro-lsgyrqk2-24"] { 
+    view-transition-name: product-brand-satisfy-oakley-straight-jacket-matte-terrain-tan-sunglasses;
+} 
+
+[data-astro-transition-scope="astro-yspn4n2n-26"] { 
+    view-transition-name: product-price-satisfy-oakley-straight-jacket-matte-terrain-tan-sunglasses;
+} 
+
+[data-astro-transition-scope="astro-3vugyntt-27"] { 
+    view-transition-name: product-tile-alba-optics-delta-ultra-org-vzum-alum;
+} 
+
+[data-astro-transition-scope="astro-lsgyrqk2-28"] { 
+    view-transition-name: product-brand-alba-optics-delta-ultra-org-vzum-alum;
+} 
+
+[data-astro-transition-scope="astro-yspn4n2n-30"] { 
+    view-transition-name: product-price-alba-optics-delta-ultra-org-vzum-alum;
+} 
+
+h2 { 
+    font-size: inherit; 
+    font-weight: inherit;
+} 
+
+h2 { 
+    margin: 0;
+} 
+
+.top-\[1px\] { 
+    top: 1px;
+} 
+
+.align-z9k { 
+    vertical-align: baseline;
+} 
+
+svg { 
+    display: block; 
+    vertical-align: middle;
+} 
+
+.mb-\[1px\] { 
+    margin-bottom: 1px;
+} 
+
+.ml-2 { 
+    margin-left: .5rem;
+} 
+
+.w-4 { 
+    width: 1rem;
+} 
+
+.space-x-w47 > :not([hidden]) ~ :not([hidden])  { 
+    --tw-space-x-reverse: 0; 
+    margin-right: calc(.5rem * var(--tw-space-x-reverse)); 
+    margin-left: calc(.5rem * calc(1 - var(--tw-space-x-reverse)));
+} 
+
+.h-\[24px\] { 
+    height: 24px;
+} 
+
+.p-hok { 
+    padding: 1px;
+} 
+
+.ring-gpx { 
+    --tw-ring-offset-shadow: var(--tw-ring-inset) 0 0 0 var(--tw-ring-offset-width) var(--tw-ring-offset-color); 
+    --tw-ring-shadow: var(--tw-ring-inset) 0 0 0 calc(1px + var(--tw-ring-offset-width)) var(--tw-ring-color); 
+    box-shadow: var(--tw-ring-offset-shadow),var(--tw-ring-shadow),var(--tw-shadow, 0 0 #0000);
+} 
+
+.ring-black\/10 { 
+    --tw-ring-color: rgb(0 0 0 / .1);
+} 
+
+.col-t5c { 
+    transition-property: color,background-color,border-color,text-decoration-color,fill,stroke; 
+    transition-timing-function: cubic-bezier(.4,0,.2,1); 
+    transition-duration: .15s;
+} 
+
+.duration-b3y { 
+    transition-duration: .3s;
+} 
+
+.hoverbg-gray-grm:hover { 
+    --tw-bg-opacity: 1; 
+    background-color: rgb(249 250 251 / var(--tw-bg-opacity));
+} 
+
+.gro-2w6\/product-thumb:hover .group-hover\/product-thumb\:text-pink-400 { 
+    --tw-text-opacity: 1; 
+    color: rgb(244 114 182 / var(--tw-text-opacity));
+} 
+
+.mr-v8d { 
+    margin-right: 1rem;
+} 
+
+.leading-p8k { 
+    line-height: 1.625;
+} 
+
+[data-astro-transition-scope="astro-6dyowgo6-9"] { 
+    view-transition-name: product-name-oakley-latch-panel-neon-orange-prizm-bronze-running-sunglasses;
+} 
+
+[data-astro-transition-scope="astro-6dyowgo6-13"] { 
+    view-transition-name: product-name-abicsi-rayon-vert-wormholes-sunglasses;
+} 
+
+[data-astro-transition-scope="astro-6dyowgo6-17"] { 
+    view-transition-name: product-name-ka-yo-r-chimi-silvaner-clear-running-sunglasses;
+} 
+
+[data-astro-transition-scope="astro-6dyowgo6-21"] { 
+    view-transition-name: product-name-satisfy-oakley-eye-jacket-matte-olive;
+} 
+
+[data-astro-transition-scope="astro-6dyowgo6-25"] { 
+    view-transition-name: product-name-satisfy-oakley-straight-jacket-matte-terrain-tan-sunglasses;
+} 
+
+[data-astro-transition-scope="astro-6dyowgo6-29"] { 
+    view-transition-name: product-name-alba-optics-delta-ultra-org-vzum-alum;
+} 
+
+.size-\[15px\] { 
+    width: 15px; 
+    height: 15px;
+} 
+
+.fill-none { 
+    fill: none;
+} 
+
+.top-58j { 
+    top: 1px;
+} 
+
+.gap-x-0\.5 { 
+    -moz-column-gap: .125rem; 
+    column-gap: .125rem;
+} 
+
+.-left-1-qrz { 
+    left: -.25rem;
+} 
+
+.h-\[9px\] { 
+    height: 9px;
+} 
+
+.w-\[9px\] { 
+    width: 9px;
+} 
+
+.border-black\/10 { 
+    border-color: #0000001a;
+} 
+
+.bg-orange-6a9 { 
+    --tw-bg-opacity: 1; 
+    background-color: rgb(249 115 22 / var(--tw-bg-opacity));
+} 
+
+
+@keyframes scaleIn { 
+  0% {  
+      opacity: 0; 
+      scale: .5; 
+      opacity: 0; 
+      scale: 0.5; 
+  }  
+  30% {  
+      opacity: .4; 
+      scale: .6; 
+      opacity: 0.4; 
+      scale: 0.6; 
+  }  
+  40% {  
+      scale: .7; 
+      scale: 0.7; 
+  }  
+  60% {  
+      opacity: .7; 
+      scale: .95; 
+      opacity: 0.7; 
+      scale: 0.95; 
+  }  
+  80% {  
+      opacity: 1.05; 
+      scale: 1; 
+      opacity: 1.05; 
+      scale: 1; 
+  }  
+  100% {  
+      opacity: 1; 
+      scale: 1; 
+      opacity: 1; 
+      scale: 1; 
+  }  
+
+} 
+@keyframes blurIn { 
+  0% {  
+      filter: blur(10px); 
+      opacity: 0; 
+      filter: blur(10px); 
+      opacity: 0; 
+  }  
+  100% {  
+      opacity: 1; 
+      filter: blur(0); 
+      opacity: 1; 
+      filter: blur(0px); 
+  }  
+
+} 
+@keyframes bounceUp { 
+  0% {  
+      opacity: 0; 
+      transform: translateY(.5em); 
+      opacity: 0; 
+      transform: translateY(0.5em); 
+  }  
+  30% {  
+      opacity: .4; 
+      transform: translateY(.35em); 
+      opacity: 0.4; 
+      transform: translateY(0.35em); 
+  }  
+  40% {  
+      transform: translateY(.2em); 
+      transform: translateY(0.2em); 
+  }  
+  60% {  
+      opacity: .7; 
+      transform: translateY(.05em); 
+      opacity: 0.7; 
+      transform: translateY(0.05em); 
+  }  
+  80% {  
+      opacity: .9; 
+      transform: translateY(0); 
+      opacity: 0.9; 
+      transform: translateY(0px); 
+  }  
+  100% {  
+      opacity: 1; 
+      transform: translateY(0); 
+      opacity: 1; 
+      transform: translateY(0px); 
+  }  
+
+} 
+@keyframes fadeIn { 
+  0% {  
+      opacity: 0; 
+      opacity: 0; 
+  }  
+  100% {  
+      opacity: 1; 
+      opacity: 1; 
+  }  
+
+} 
+/* These were inline style tags. Uses id+class to override almost everything */
+#style-hnzlP.style-hnzlP {  
+   display: flex;  
+}  
+#style-fyvSo.style-fyvSo {  
+   background-image: url('https://cms.running.supply/api/files/n10au9ybmqekauc/y5nzya8a87jlayt/nike_marquee_edge_mirrored_running_sunglasses_Oh8f9Gy7yP.webp?thumb=100x100');  
+}  
+#style-Y3DJ4.style-Y3DJ4 {  
+   top: 18px;  
+    left: 990px;  
+    height: 0px;  
+    width: 0px;  
+}  
+#style-MmXMX.style-MmXMX {  
+   top: 18px;  
+    left: 1041px;  
+    height: 0px;  
+    width: 0px;  
+}  
+#style-UoLox.style-UoLox {  
+   top: 50px;  
+    left: 990px;  
+    height: 0px;  
+    width: 0px;  
+}  
+#style-m6og3.style-m6og3 {  
+   top: 18px;  
+    left: 988px;  
+    height: 0px;  
+    width: 0px;  
+}  
+#style-VXISR.style-VXISR {  
+   top: -2px;  
+    left: 0px;  
+    height: 0px;  
+    width: 0px;  
+}  
+#style-rGYxI.style-rGYxI {  
+   top: -4px;  
+    left: -4px;  
+    height: 0px;  
+    width: 0px;  
+}  
+#style-6tv1U.style-6tv1U {  
+   top: -4px;  
+    left: -4px;  
+    height: 0px;  
+    width: 0px;  
+}  
+#style-yN3Lo.style-yN3Lo {  
+   top: -2px;  
+    left: -2px;  
+    height: 0px;  
+    width: 0px;  
+}  
+#style-3avoi.style-3avoi {  
+   top: 0px;  
+    left: 0px;  
+    position: absolute;  
+}  
+#sni-4fn.style-9434e {  
+   left: 1762px;  
+    top: 0px;  
+}  
+/* These were inline style tags. Uses id+class to override almost everything */
+#style-sj4PM.style-sj4PM {  
+   display: flex;  
+}  
+#style-7oC1G.style-7oC1G {  
+   background-image: url('https://cms.running.supply/api/files/n10au9ybmqekauc/y5nzya8a87jlayt/nike_marquee_edge_mirrored_running_sunglasses_Oh8f9Gy7yP.webp?thumb=100x100');  
+}  
+#style-vq3sC.style-vq3sC {  
+   top: 18px;  
+    left: 990px;  
+    height: 0px;  
+    width: 0px;  
+}  
+#style-m43Ka.style-m43Ka {  
+   top: 18px;  
+    left: 1041px;  
+    height: 0px;  
+    width: 0px;  
+}  
+#style-LFpW9.style-LFpW9 {  
+   top: 50px;  
+    left: 990px;  
+    height: 0px;  
+    width: 0px;  
+}  
+#style-RisZE.style-RisZE {  
+   top: 18px;  
+    left: 988px;  
+    height: 0px;  
+    width: 0px;  
+}  
+#style-lBzZo.style-lBzZo {  
+   top: -2px;  
+    left: 0px;  
+    height: 0px;  
+    width: 0px;  
+}  
+#style-Caacb.style-Caacb {  
+   top: -4px;  
+    left: -4px;  
+    height: 0px;  
+    width: 0px;  
+}  
+#style-lxaUD.style-lxaUD {  
+   top: -4px;  
+    left: -4px;  
+    height: 0px;  
+    width: 0px;  
+}  
+#style-M6JJL.style-M6JJL {  
+   top: -2px;  
+    left: -2px;  
+    height: 0px;  
+    width: 0px;  
+}  
+#style-x72oh.style-x72oh {  
+   top: 0px;  
+    left: 0px;  
+    position: absolute;  
+}  
+#sni-s68.style-TctUl {  
+   left: 1762px;  
+    top: 0px;  
+}  

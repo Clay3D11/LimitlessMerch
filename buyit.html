@@ -1,0 +1,570 @@
+<!DOCTYPE html>
+<html>
+   <head>
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1" />
+      <link rel="stylesheet" href="snipped(buyit).css">
+   </head>
+   <body>
+ <script type="text/javascript">(()=>{var e=async t=>{await(await t())()};(self.Astro||(self.Astro={})).only=e;window.dispatchEvent(new Event("astro:only"));})();;(()=>{var A=Object.defineProperty;var g=(i,o,a)=>o in i?A(i,o,{enumerable:!0,configurable:!0,writable:!0,value:a}):i[o]=a;var d=(i,o,a)=>g(i,typeof o!="symbol"?o+"":o,a);{let i={0:t=>m(t),1:t=>a(t),2:t=>new RegExp(t),3:t=>new Date(t),4:t=>new Map(a(t)),5:t=>new Set(a(t)),6:t=>BigInt(t),7:t=>new URL(t),8:t=>new Uint8Array(t),9:t=>new Uint16Array(t),10:t=>new Uint32Array(t)},o=t=>{let[l,e]=t;return l in i?i[l](e):void 0},a=t=>t.map(o),m=t=>typeof t!="object"||t===null?t:Object.fromEntries(Object.entries(t).map(([l,e])=>[l,o(e)]));class y extends HTMLElement{constructor(){super(...arguments);d(this,"Component");d(this,"hydrator");d(this,"hydrate",async()=>{var b;if(!this.hydrator||!this.isConnected)return;let e=(b=this.parentElement)==null?void 0:b.closest("astro-island[ssr]");if(e){e.addEventListener("astro:hydrate",this.hydrate,{once:!0});return}let c=this.querySelectorAll("astro-slot"),n={},h=this.querySelectorAll("template[data-astro-template]");for(let r of h){let s=r.closest(this.tagName);s!=null&&s.isSameNode(this)&&(n[r.getAttribute("data-astro-template")||"default"]=r.innerHTML,r.remove())}for(let r of c){let s=r.closest(this.tagName);s!=null&&s.isSameNode(this)&&(n[r.getAttribute("name")||"default"]=r.innerHTML)}let p;try{p=this.hasAttribute("props")?m(JSON.parse(this.getAttribute("props"))):{}}catch(r){let s=this.getAttribute("component-url")||"<unknown>",v=this.getAttribute("component-export");throw v&&(s+=` (export ${v})`),console.error(`[hydrate] Error parsing props for component ${s}`,this.getAttribute("props"),r),r}let u;await this.hydrator(this)(this.Component,p,n,{client:this.getAttribute("client")}),this.removeAttribute("ssr"),this.dispatchEvent(new CustomEvent("astro:hydrate"))});d(this,"unmount",()=>{this.isConnected||this.dispatchEvent(new CustomEvent("astro:unmount"))})}disconnectedCallback(){document.removeEventListener("astro:after-swap",this.unmount),document.addEventListener("astro:after-swap",this.unmount,{once:!0})}connectedCallback(){if(!this.hasAttribute("await-children")||document.readyState==="interactive"||document.readyState==="complete")this.childrenConnectedCallback();else{let e=()=>{document.removeEventListener("DOMContentLoaded",e),c.disconnect(),this.childrenConnectedCallback()},c=new MutationObserver(()=>{var n;((n=this.lastChild)==null?void 0:n.nodeType)===Node.COMMENT_NODE&&this.lastChild.nodeValue==="astro:end"&&(this.lastChild.remove(),e())});c.observe(this,{childList:!0}),document.addEventListener("DOMContentLoaded",e)}}async childrenConnectedCallback(){let e=this.getAttribute("before-hydration-url");e&&await import(e),this.start()}async start(){let e=JSON.parse(this.getAttribute("opts")),c=this.getAttribute("client");if(Astro[c]===void 0){window.addEventListener(`astro:${c}`,()=>this.start(),{once:!0});return}try{await Astro[c](async()=>{let n=this.getAttribute("renderer-url"),[h,{default:p}]=await Promise.all([import(this.getAttribute("component-url")),n?import(n):()=>()=>{}]),u=this.getAttribute("component-export")||"default";if(!u.includes("."))this.Component=h[u];else{this.Component=h;for(let f of u.split("."))this.Component=this.Component[f]}return this.hydrator=p,this.hydrate},e,this)}catch(n){console.error(`[astro-island] Error hydrating ${this.getAttribute("component-url")}`,n)}}attributeChangedCallback(){this.hydrate()}}d(y,"observedAttributes",["props"]),customElements.get("astro-island")||customElements.define("astro-island",y)}})();</script>
+
+
+
+
+ <div class="gro-2w6 rel-wck fle-ghl w-7fa px-4ny py-tzs item-6il smjustify-k5m">
+     <div class="fle-ghl w-7fa flex-fos row-amv smjustify-k5m">
+         <nav class="mt-bxi fle-ghl gap-y-zy7 text-dxz font-gfn">
+            
+             <div><a href="./index.html" class="block-sh7 rounded-7od p-xhi text-po8 leading-4cx transition-e7l hoverbg-neutral-bof">Home</a></div>
+
+             <div><a href="./outfits.html" class="block-sh7 rounded-7od p-xhi text-po8 leading-4cx transition-e7l hoverbg-neutral-bof">Outfits</a></div>
+
+             
+
+             <div><a href="./about.html" class="block-sh7 rounded-7od p-xhi text-po8 leading-4cx transition-e7l hoverbg-neutral-bof">About</a></div>
+         </nav>
+     </div>
+ </div>
+
+
+ 
+
+
+
+ <div class="h-rb3 w-7fa flex-fos col-s1w justify-63a overflow-y-moj bg-ol9 px-l82 lgmax-w-screen-edx style-sj4PM" id="style-sj4PM">
+
+     <section class="mx-eyk mb-76r mt-oet w-7fa" data-astro-cid-g6l6wp67="">
+        <button class="inline-p2i cursor-ijk item-y55 justify-lex gap-6kf ease-in-emw">
+            <img width="16" height="16" class="opacity-ws1 transition-e7l ease-in-emw" src="./images/arrow-left.svg">
+            <span class="rel-wck leading-4cx opacity-ws1 transition-e7l">Back</span>
+            </button>
+
+         <h1 class="sr-djw mt-xxj text-omb" data-astro-cid-g6l6wp67="">Nike Marquee Edge</h1>
+         
+         <div class="mx-eyk w-7fa max-w-screen-a3p" data-astro-cid-g6l6wp67="">
+             <div class="rel-wck mx-eyk w-7fa max-w-gtc" data-astro-cid-g6l6wp67="">
+                 <astro-island>
+                    <button class="scale-ito abs-nbo left-p5n top-vcf z-exb fle-ghl item-y55 p-jqc">
+                         <div class="fle-ghl item-y55 p-jqc text-96o text-4pa">
+                             <div class="fle-ghl row-amv item-y55 text-kon"><svg class="size-[15px] transition-all fill-none" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24">
+                                     <path fill="inherit" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 14c1.49-1.46 3-3.21 3-5.5A5.5 5.5 0 0 0 16.5 3c-1.76 0-3 .5-4.5 2c-1.5-1.5-2.74-2-4.5-2A5.5 5.5 0 0 0 2 8.5c0 2.3 1.5 4.05 3 5.5l7 7Z"></path>
+                                 </svg></div>
+                         </div><span class="font-k8p text-po8 text-acs opacity-ws1">7</span>
+                     </button>
+                     </astro-island>
+                     
+                     <a class="group/product-pwe rel-wck block-hf8 cursor-ijk" href="https://www.nike.com/t/marquee-edge-mirrored-sunglasses-Vlc3bq/NKFN0300-519" data-astro-cid-g6l6wp67="">
+                     <a class="group/product-pwe rel-wck block-hf8 cursor-ijk" href="https://www.nike.com/t/marquee-edge-mirrored-sunglasses-Vlc3bq/NKFN0300-519" data-astro-cid-g6l6wp67="">
+
+                     <div class="gro-2w6 abs-nbo right-bvk top-lm5 z-exb rounded-32a p-jqc backdrop-blur-pzo duration-yjt ease-in-emw group-hover/product-thumbbg-qot" data-astro-transition-scope="astro-6svi5mpu-5"> <img width="16" height="16" class="opacity-vy7 transition-e7l duration-yjt form-j87 group-hover/product-thumbrotate-shn group-hover/product-thumbopacity-js1" src="./images(buyit)/abicsi_rayon_vert_wormholes_sunglasses_fnijUVjiNg.webp"> </div>
+
+
+                     <div class="thumbnail-e5y w-7fa overflow-o8y rounded-7od bor-jxt border-gray-zle style-7oC1G" data-astro-cid-g6l6wp67="" id="style-7oC1G">
+                        <img src="./images/nike_marquee_edge_mirrored_running_sunglasses_Oh8f9Gy7yP.webp" width="800" height="800" class="rel-wck z-d1o w-7fa rounded-7od object-oa9 transition-e7l ease-in-emw" data-astro-cid-g6l6wp67="" data-astro-transition-scope="astro-swi2btbu-1">
+                        </div>
+                 </a>
+
+
+
+                 <div class="mt-oet gap-y-zy7 transition-e7l ease-in-emw" data-astro-cid-g6l6wp67="">
+                     <div class="mt-r8b fle-ghl row-amv justify-63a" data-astro-cid-g6l6wp67=""><a href="/brand/nike" data-astro-cid-g6l6wp67="" data-astro-transition-scope="astro-rn5skmun-2">
+                             <h2 class="font-k8p text-dxz font-gfn upp-knk text-kon" data-astro-cid-g6l6wp67="">Nike</h2>
+                         </a><span class="font-k8p text-dxz font-gfn cap-jgd text-kon" data-astro-cid-g6l6wp67="" data-astro-transition-scope="astro-x7axkpke-3">$175.00</span></div>
+                     <div class="mt-r8b" data-astro-cid-g6l6wp67="">
+                         <h3 class="text-koo font-i2b" data-astro-cid-g6l6wp67="" data-astro-transition-scope="astro-x2pdn4go-4">Nike Marquee Edge</h3>
+                     </div>
+                     <p class="spring-in-5xd mt-bxi text-hlk text-koo font-4g3 leading-how subpixel-fkz" data-astro-cid-g6l6wp67="">The Nike Marquee Edge Mirrored sunglasses are ultralight and have a wraparound lens design. Grippy rubber pads at the nose and temples to stay put while you run. These are also 25% now with code EXTRA25.</p>
+
+
+
+
+
+
+
+
+
+
+
+
+                     
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                     <nav class="spring-in-up-daq fix-5jo bottom-wz3 left-ham right-tmy border-ezp px-l82 py-r8k transition-e7l sm-1of smmt-3ek smborder-dbg smp-f4z smbackdrop-blur-8qd" data-astro-cid-g6l6wp67="">
+                        <a href="https://howl.me/link/?url=https://www.nike.com/t/marquee-edge-mirrored-sunglasses-Vlc3bq/NKFN0300-519&amp;article_url=https://running.supply/items/nike-marquee-edge-mirrored-running-sunglasses&amp;publisher_slug=coletownsend19724" class="gro-2w6 rel-wck z-exb inline-p2i cursor-ijk item-y55 justify-lex space-x-w47 rounded-32a border-nho bg-blue-es2 px-j6j text-dxz font-i2b text-irk no-onx transition-e7l hoverbg-blue-le7 leading-yxl">
+                             <span class="rel-wck align-z9k"> Buy now </span>
+                              <svg xmlns="http://www.w3.org/2000/svg" class="lucide lucide-arrow-up-right relative mb-[1px] ml-2 w-4 opacity-50 transition-transform duration-500 will-change-transform group-hover:rotate-45" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                 <path d="M7 7h10v10"></path>
+                                 <path d="M7 17 17 7"></path>
+                             </svg>
+                             </a> 
+                            </nav>
+                            
+                            
+                            
+                            
+                            
+                            
+
+                            
+
+
+
+                            
+
+
+
+
+
+
+
+                 </div>
+                 
+             </div>
+         </div>
+
+
+
+
+         <div class="mt-7bl grid-jyn grid-tgc gap-q4n grid-od9">
+
+
+
+
+
+
+             <div class="group/product-pwe rel-wck w-7fa max-w-gtc">
+                 <astro-island>
+                    <button class="scale-ito abs-nbo left-p5n top-vcf z-exb fle-ghl item-y55 p-jqc">
+                         <div class="fle-ghl item-y55 p-jqc text-96o text-4pa">
+                             <div class="fle-ghl row-amv item-y55 text-kon"><svg class="size-[15px] transition-all fill-none" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24">
+                                     <path fill="inherit" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 14c1.49-1.46 3-3.21 3-5.5A5.5 5.5 0 0 0 16.5 3c-1.76 0-3 .5-4.5 2c-1.5-1.5-2.74-2-4.5-2A5.5 5.5 0 0 0 2 8.5c0 2.3 1.5 4.05 3 5.5l7 7Z"></path>
+                                 </svg></div>
+                         </div><span class="font-k8p text-po8 text-acs opacity-ws1">6</span>
+                     </button>
+                    </astro-island>
+
+
+                     <a href="https://howl.me/link/?url=https://us.slamjam.com/products/oakley-accessories-latch-panel-orange-j298161&amp;article_url=https://running.supply/items/nike-marquee-edge-mirrored-running-sunglasses&amp;publisher_slug=coletownsend19724">
+
+                     <div class="gro-2w6 abs-nbo right-bvk top-lm5 z-exb rounded-32a p-jqc backdrop-blur-pzo duration-yjt ease-in-emw group-hover/product-thumbbg-qot" data-astro-transition-scope="astro-6svi5mpu-31">
+                         <img width="16" height="16" class="opacity-vy7 transition-e7l duration-yjt form-j87 group-hover/product-thumbrotate-shn group-hover/product-thumbopacity-js1" src="./images/arrow-up-right.svg"> 
+                    </div>
+                 </a> 
+
+
+
+
+                 <a class="block-hf8 w-7fa cursor-ijk" href="/items/oakley-latch-panel-neon-orange-prizm-bronze-running-sunglasses">
+                     <div class="thumbnail-e5y w-7fa overflow-o8y rounded-7od bor-jxt border-gray-zle"> <img src="./images/oakley_latch_panel_neon_orange_prizm_bronze_running_sunglasses_JeHlS4zPUs.webp" width="400" height="400" class="rel-wck z-d1o w-7fa object-oa9 form-b77 duration-yjt hoverscale-bcd" data-astro-transition-scope="astro-3vugyntt-7"> </div>
+                 </a>
+
+
+
+
+
+                 <div class="mt-bxi transition-e7l ease-in-emw group-hover/productopacity-8j6"> <span class="font-k8p text-po8 font-gfn upp-knk text-kon"> <a href="/category/accessories" class="hov-jxg">Accessories</a> · <a href="/brand/oakley" class="hov-jxg" data-astro-transition-scope="astro-lsgyrqk2-8">Oakley</a> </span>
+                     <div class="mt-33v fle-ghl row-amv item-ryv justify-63a"> <a href="/items/oakley-latch-panel-neon-orange-prizm-bronze-running-sunglasses">
+                             <h3 class="mr-v8d text-dxz font-gfn leading-p8k" data-astro-transition-scope="astro-6dyowgo6-9"> Oakley Latch Panel </h3>
+                         </a> <span class="font-k8p text-dxz font-gfn text-kon" data-astro-transition-scope="astro-yspn4n2n-10"> $210.00 </span> </div>
+                 </div>
+
+
+
+
+
+
+
+
+             </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+             <div class="group/product-pwe rel-wck w-7fa max-w-gtc">
+
+
+
+
+                 
+                
+                <astro-island><button class="scale-ito abs-nbo left-p5n top-vcf z-exb fle-ghl item-y55 p-jqc">
+                         <div class="fle-ghl item-y55 p-jqc text-96o text-4pa">
+                             <div class="fle-ghl row-amv item-y55 text-kon"><svg class="size-[15px] transition-all fill-none" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24">
+                                     <path fill="inherit" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 14c1.49-1.46 3-3.21 3-5.5A5.5 5.5 0 0 0 16.5 3c-1.76 0-3 .5-4.5 2c-1.5-1.5-2.74-2-4.5-2A5.5 5.5 0 0 0 2 8.5c0 2.3 1.5 4.05 3 5.5l7 7Z"></path>
+                                 </svg></div>
+                         </div><span class="font-k8p text-po8 text-acs opacity-ws1">6</span>
+                     </button>
+                     </astro-island>
+                     
+                     
+
+
+                     
+                     
+                     <a href="https://howl.me/link/?url=https://rayonvert.international/product/abicsi-rayon-vert-wormholes-sunglasses/&amp;article_url=https://running.supply/items/nike-marquee-edge-mirrored-running-sunglasses&amp;publisher_slug=coletownsend19724">
+                     <div class="gro-2w6 abs-nbo right-bvk top-lm5 z-exb rounded-32a p-jqc backdrop-blur-pzo duration-yjt ease-in-emw group-hover/product-thumbbg-qot" data-astro-transition-scope="astro-6svi5mpu-32"> <img width="16" height="16" class="opacity-vy7 transition-e7l duration-yjt form-j87 group-hover/product-thumbrotate-shn group-hover/product-thumbopacity-js1" src="./images/arrow-up-right.svg"> </div>
+                 </a>
+
+
+                 
+                 
+                 
+                 
+                 <a class="block-hf8 w-7fa cursor-ijk" href="/items/abicsi-rayon-vert-wormholes-sunglasses">
+                     
+                    <div class="thumbnail-e5y w-7fa overflow-o8y rounded-7od bor-jxt border-gray-zle"> 
+                        
+                        <img src="./images/nike_running_division_mens_dri_fit_adv_4_brief_lined_running_shorts_gjxotffzsa.webp" width="400" height="400" class="rel-wck z-d1o w-7fa object-oa9 form-b77 duration-yjt hoverscale-bcd" data-astro-transition-scope="astro-3vugyntt-11"> 
+                        
+                        </div>
+                 </a>
+
+
+
+
+
+
+
+
+
+
+
+                 <div class="mt-bxi transition-e7l ease-in-emw group-hover/productopacity-8j6"> <span class="font-k8p text-po8 font-gfn upp-knk text-kon"> <a href="/category/accessories" class="hov-jxg">Accessories</a> · <a href="/brand/rayon-vert" class="hov-jxg" data-astro-transition-scope="astro-lsgyrqk2-12">Rayon Vert</a> </span>
+                     <div class="mt-33v fle-ghl row-amv item-ryv justify-63a"> <a href="/items/abicsi-rayon-vert-wormholes-sunglasses">
+                             <h3 class="mr-v8d text-dxz font-gfn leading-p8k" data-astro-transition-scope="astro-6dyowgo6-13"> Rayon Vert Wormholes Sunglasses </h3>
+                         </a> <span class="font-k8p text-dxz font-gfn text-kon" data-astro-transition-scope="astro-yspn4n2n-14"> €295.00 </span> </div>
+                 </div>
+
+
+             </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+             <div class="group/product-pwe rel-wck w-7fa max-w-gtc">
+                 <astro-island><button class="scale-ito abs-nbo left-p5n top-vcf z-exb fle-ghl item-y55 p-jqc">
+                         <div class="fle-ghl item-y55 p-jqc text-96o text-4pa">
+                             <div class="fle-ghl row-amv item-y55 text-kon"><svg class="size-[15px] transition-all fill-none" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24">
+                                     <path fill="inherit" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 14c1.49-1.46 3-3.21 3-5.5A5.5 5.5 0 0 0 16.5 3c-1.76 0-3 .5-4.5 2c-1.5-1.5-2.74-2-4.5-2A5.5 5.5 0 0 0 2 8.5c0 2.3 1.5 4.05 3 5.5l7 7Z"></path>
+                                 </svg></div>
+                         </div><span class="font-k8p text-po8 text-acs opacity-ws1">21</span>
+                     </button></astro-island> <a href="https://howl.me/link/?url=https://chimi-online.com/us/p/ka-yo-r-chimi-silvaner-clear&amp;article_url=https://running.supply/items/nike-marquee-edge-mirrored-running-sunglasses&amp;publisher_slug=coletownsend19724">
+                     <div class="gro-2w6 abs-nbo right-bvk top-lm5 z-exb rounded-32a p-jqc backdrop-blur-pzo duration-yjt ease-in-emw group-hover/product-thumbbg-qot" data-astro-transition-scope="astro-6svi5mpu-33"> <img width="16" height="16" class="opacity-vy7 transition-e7l duration-yjt form-j87 group-hover/product-thumbrotate-shn group-hover/product-thumbopacity-js1" src="./images/arrow-up-right.svg"> </div>
+                 </a> <a class="block-hf8 w-7fa cursor-ijk" href="/items/ka-yo-r-chimi-silvaner-clear-running-sunglasses">
+                     <div class="thumbnail-e5y w-7fa overflow-o8y rounded-7od bor-jxt border-gray-zle"> <img src="./images/ka_yo_r_chimi_silvaner_clear_sYtHCTeSvI.webp" width="400" height="400" class="rel-wck z-d1o w-7fa object-oa9 form-b77 duration-yjt hoverscale-bcd" data-astro-transition-scope="astro-3vugyntt-15"> </div>
+                 </a>
+                 <div class="mt-bxi transition-e7l ease-in-emw group-hover/productopacity-8j6"> <span class="font-k8p text-po8 font-gfn upp-knk text-kon"> <a href="/category/accessories" class="hov-jxg">Accessories</a> · <a href="/brand/ka-yo" class="hov-jxg" data-astro-transition-scope="astro-lsgyrqk2-16">KA-YO</a> </span>
+                     <div class="mt-33v fle-ghl row-amv item-ryv justify-63a"> <a href="/items/ka-yo-r-chimi-silvaner-clear-running-sunglasses">
+                             <h3 class="mr-v8d text-dxz font-gfn leading-p8k" data-astro-transition-scope="astro-6dyowgo6-17"> KA-YO Chimi Silvaner Sunglasses </h3>
+                         </a> <span class="font-k8p text-dxz font-gfn text-kon" data-astro-transition-scope="astro-yspn4n2n-18"> $230.00 </span> </div>
+                 </div>
+             </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+             <div class="group/product-pwe rel-wck w-7fa max-w-gtc">
+                 <astro-island><button class="scale-ito abs-nbo left-p5n top-vcf z-exb fle-ghl item-y55 p-jqc">
+                         <div class="fle-ghl item-y55 p-jqc text-96o text-4pa">
+                             <div class="fle-ghl row-amv item-y55 text-kon"><svg class="size-[15px] transition-all fill-none" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24">
+                                     <path fill="inherit" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 14c1.49-1.46 3-3.21 3-5.5A5.5 5.5 0 0 0 16.5 3c-1.76 0-3 .5-4.5 2c-1.5-1.5-2.74-2-4.5-2A5.5 5.5 0 0 0 2 8.5c0 2.3 1.5 4.05 3 5.5l7 7Z"></path>
+                                 </svg></div>
+                         </div><span class="font-k8p text-po8 text-acs opacity-ws1">2</span>
+                     </button></astro-island> <a href="https://howl.me/link/?url=https://satisfyrunning.com/collections/sunglasses/products/satisfy-oakley-eye-jacket-1?variant=8949951037768&amp;queryID=e10956f5708a302214805284747446c6&amp;article_url=https://running.supply/items/nike-marquee-edge-mirrored-running-sunglasses&amp;publisher_slug=coletownsend19724">
+                     <div class="gro-2w6 abs-nbo right-bvk top-lm5 z-exb rounded-32a p-jqc backdrop-blur-pzo duration-yjt ease-in-emw group-hover/product-thumbbg-qot" data-astro-transition-scope="astro-6svi5mpu-34"> <img width="16" height="16" class="opacity-vy7 transition-e7l duration-yjt form-j87 group-hover/product-thumbrotate-shn group-hover/product-thumbopacity-js1" src="./images/arrow-up-right.svg"> </div>
+                 </a> <a class="block-hf8 w-7fa cursor-ijk" href="/items/satisfy-oakley-eye-jacket-matte-olive">
+                     <div class="thumbnail-e5y w-7fa overflow-o8y rounded-7od bor-jxt border-gray-zle"> <img src="./images/satisfy_oakley_eye_jacket_matte_olive_RNmFYYssNt.webp" width="400" height="400" class="rel-wck z-d1o w-7fa object-oa9 form-b77 duration-yjt hoverscale-bcd" data-astro-transition-scope="astro-3vugyntt-19"> </div>
+                 </a>
+                 <div class="mt-bxi transition-e7l ease-in-emw group-hover/productopacity-8j6"> <span class="font-k8p text-po8 font-gfn upp-knk text-kon"> <a href="/category/accessories" class="hov-jxg">Accessories</a> · <a href="/brand/satisfy-running" class="hov-jxg" data-astro-transition-scope="astro-lsgyrqk2-20">Satisfy</a> </span>
+                     <div class="mt-33v fle-ghl row-amv item-ryv justify-63a"> <a href="/items/satisfy-oakley-eye-jacket-matte-olive">
+                             <h3 class="mr-v8d text-dxz font-gfn leading-p8k" data-astro-transition-scope="astro-6dyowgo6-21"> Satisfy Oakley Eye Jacket Matte Olive </h3>
+                         </a> <span class="font-k8p text-dxz font-gfn text-kon" data-astro-transition-scope="astro-yspn4n2n-22"> $230.00 </span> </div>
+                 </div>
+             </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+             <div class="group/product-pwe rel-wck w-7fa max-w-gtc">
+                 <astro-island><button class="scale-ito abs-nbo left-p5n top-vcf z-exb fle-ghl item-y55 p-jqc">
+                         <div class="fle-ghl item-y55 p-jqc text-96o text-4pa">
+                             <div class="fle-ghl row-amv item-y55 text-kon"><svg class="size-[15px] transition-all fill-none" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24">
+                                     <path fill="inherit" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 14c1.49-1.46 3-3.21 3-5.5A5.5 5.5 0 0 0 16.5 3c-1.76 0-3 .5-4.5 2c-1.5-1.5-2.74-2-4.5-2A5.5 5.5 0 0 0 2 8.5c0 2.3 1.5 4.05 3 5.5l7 7Z"></path>
+                                 </svg></div>
+                         </div><span class="font-k8p text-po8 text-acs opacity-ws1">17</span>
+                     </button></astro-island> <a href="https://howl.me/link/?url=https://satisfyrunning.com/products/satisfy-oakley-straight-jacket?variant=8949950873928?queryID=047b1592bdaef23df8ad7c8b493a1b1c&amp;article_url=https://running.supply/items/nike-marquee-edge-mirrored-running-sunglasses&amp;publisher_slug=coletownsend19724">
+                     <div class="gro-2w6 abs-nbo right-bvk top-lm5 z-exb rounded-32a p-jqc backdrop-blur-pzo duration-yjt ease-in-emw group-hover/product-thumbbg-qot" data-astro-transition-scope="astro-6svi5mpu-35"> <img width="16" height="16" class="opacity-vy7 transition-e7l duration-yjt form-j87 group-hover/product-thumbrotate-shn group-hover/product-thumbopacity-js1" src="./images/arrow-up-right.svg"> </div>
+                 </a> <a class="block-hf8 w-7fa cursor-ijk" href="/items/satisfy-oakley-straight-jacket-matte-terrain-tan-sunglasses">
+                     <div class="thumbnail-e5y w-7fa overflow-o8y rounded-7od bor-jxt border-gray-zle"> <img src="./images/satisfy_oakley_straight_jacket_matte_terrain_tan_BDc0n6KSos.webp" width="400" height="400" class="rel-wck z-d1o w-7fa object-oa9 form-b77 duration-yjt hoverscale-bcd" data-astro-transition-scope="astro-3vugyntt-23"> </div>
+                 </a>
+                 <div class="mt-bxi transition-e7l ease-in-emw group-hover/productopacity-8j6"> <span class="font-k8p text-po8 font-gfn upp-knk text-kon"> <a href="/category/accessories" class="hov-jxg">Accessories</a> · <a href="/brand/satisfy-running" class="hov-jxg" data-astro-transition-scope="astro-lsgyrqk2-24">Satisfy</a> </span>
+                     <div class="mt-33v fle-ghl row-amv item-ryv justify-63a"> <a href="/items/satisfy-oakley-straight-jacket-matte-terrain-tan-sunglasses">
+                             <h3 class="mr-v8d text-dxz font-gfn leading-p8k" data-astro-transition-scope="astro-6dyowgo6-25"> Satisfy Oakley Straight Jacket </h3>
+                         </a> <span class="font-k8p text-dxz font-gfn text-kon" data-astro-transition-scope="astro-yspn4n2n-26"> $194.00 </span> </div>
+                 </div>
+             </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+             <div class="group/product-pwe rel-wck w-7fa max-w-gtc">
+                 <astro-island><button class="scale-ito abs-nbo left-p5n top-vcf z-exb fle-ghl item-y55 p-jqc">
+                         <div class="fle-ghl item-y55 p-jqc text-96o text-4pa">
+                             <div class="fle-ghl row-amv item-y55 text-kon"><svg class="size-[15px] transition-all fill-none" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24">
+                                     <path fill="inherit" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 14c1.49-1.46 3-3.21 3-5.5A5.5 5.5 0 0 0 16.5 3c-1.76 0-3 .5-4.5 2c-1.5-1.5-2.74-2-4.5-2A5.5 5.5 0 0 0 2 8.5c0 2.3 1.5 4.05 3 5.5l7 7Z"></path>
+                                 </svg></div>
+                         </div><span class="font-k8p text-po8 text-acs opacity-ws1">1</span>
+                     </button></astro-island> <a href="https://howl.me/link/?url=https://ivisionari.com/products/alba-optics-delta-ultra-organge-vzum-mr-alu?variant=39621334925394&amp;utm_source=running-supply&amp;currency=USD&amp;country=US&amp;article_url=https://running.supply/items/nike-marquee-edge-mirrored-running-sunglasses&amp;publisher_slug=coletownsend19724">
+                     <div class="gro-2w6 abs-nbo right-bvk top-lm5 z-exb rounded-32a p-jqc backdrop-blur-pzo duration-yjt ease-in-emw group-hover/product-thumbbg-qot" data-astro-transition-scope="astro-6svi5mpu-36"> <img width="16" height="16" class="opacity-vy7 transition-e7l duration-yjt form-j87 group-hover/product-thumbrotate-shn group-hover/product-thumbopacity-js1" src="./images/arrow-up-right.svg"> </div>
+                 </a> 
+                 
+                 
+                 <a class="block-hf8 w-7fa cursor-ijk" href="/items/alba-optics-delta-ultra-org-vzum-alum">
+
+
+                     <div class="thumbnail-e5y w-7fa overflow-o8y rounded-7od bor-jxt border-gray-zle"> 
+                        
+                        
+                        <img src="./images/arcteryx_vertex_alpine_shoe_YdDrtz47iF.webp" width="400" height="400" class="rel-wck z-d1o w-7fa object-oa9 form-b77 duration-yjt hoverscale-bcd" data-astro-transition-scope="astro-3vugyntt-27"> 
+                        
+                        </div>
+                 </a>
+
+
+                 <div class="mt-bxi transition-e7l ease-in-emw group-hover/productopacity-8j6"> <span class="font-k8p text-po8 font-gfn upp-knk text-kon"> <a href="/category/accessories" class="hov-jxg">Accessories</a> · <a href="/brand/alba-optics" class="hov-jxg" data-astro-transition-scope="astro-lsgyrqk2-28">Alba Optics</a> </span>
+                     <div class="mt-33v fle-ghl row-amv item-ryv justify-63a"> <a href="/items/alba-optics-delta-ultra-org-vzum-alum">
+                             <h3 class="mr-v8d text-dxz font-gfn leading-p8k" data-astro-transition-scope="astro-6dyowgo6-29"> Alba Optics Delta Ultra VZUM </h3>
+                         </a> <span class="font-k8p text-dxz font-gfn text-kon" data-astro-transition-scope="astro-yspn4n2n-30"> $197.00 </span> </div>
+                 </div>
+
+
+
+             </div>
+
+
+
+
+
+
+             
+         </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+     </section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+     <footer class="mt-xxj fle-ghl w-7fa col-s1w item-sja justify-lex gap-y-zy7 self-kww justify-self-8kk border-ezp border-gray-zle pb-e2y pt-cw6 align-9de font-4g3 text-3xm row-c9l smjustify-1m3 text-pyv">
+         <div class="max-w-ep4 space-y-ggh">
+             <div class="text-hlk text-po8 font-gfn text-hts">Running Supply</div>
+             <p class="text-hlk text-po8 font-gfn text-534"> Running Supply is a directory of selected running things. Explore a curated selection of places, routes, stores, and gear. </p>
+             <div class="me-tcz text-po8 font-gfn text-534"> Copyright © 2024 </div>
+         </div>
+         <nav class="fle-ghl gap-x-ysw smgap-x-y9q"> <a href="#" class="px-ciw py-tqk text-po8 font-gfn text-hts smpx-ffg smpy-fym text-fzo sm-x14"> Home </a><a href="/running-outfits" class="px-ciw py-tqk text-po8 font-gfn text-hts smpx-ffg smpy-fym text-fzo sm-x14"> Outfits </a><a href="outfits.html" class="px-ciw py-tqk text-po8 font-gfn text-hts smpx-ffg smpy-fym text-fzo sm-x14"> Outfits </a><a href="/about" class="px-ciw py-tqk text-po8 font-gfn text-hts smpx-ffg smpy-fym text-fzo sm-x14"> About </a><a href="/contact" class="px-ciw py-tqk text-po8 font-gfn text-hts smpx-ffg smpy-fym text-fzo sm-x14"> Contact </a> </nav>
+     </footer>
+
+
+
+     
+     <astro-island></astro-island>
+ </div>
+
+
+
+
+
+
+ <!--<script type="text/javascript">
+			(function () {
+				var fullres = document.createElement("script");
+				fullres.async = true;
+				fullres.src =
+					"https://running.supply/7mioI3zb9A124LsA/running.js?" +
+					(new Date() - (new Date() % 43200000));
+				fullres.attributes.siteKeyOverride = "running";
+				document.head.appendChild(fullres);
+			})();
+		</script>-->
+ <!--<script defer="" data-host-url="https://analytics.running.supply" src="https://running.supply/analytics.js" data-website-id="5c657f0d-5305-4328-8bec-a7d225e4ee24" type="9d9566339f441ecef646bba8-text/javascript"></script>-->
+ <div class="astro-route-39n">Nike Marquee Edge - Running Supply</div>
+ <div></div>
+ <div class="style-vq3sC" id="style-vq3sC"></div>
+ <div class="style-m43Ka" id="style-m43Ka"></div>
+ <div class="style-LFpW9" id="style-LFpW9"></div>
+ <div class="style-RisZE" id="style-RisZE"></div>
+ <div class="style-lBzZo" id="style-lBzZo"></div>
+ <div class="style-Caacb" id="style-Caacb"></div>
+ <div class="style-lxaUD" id="style-lxaUD"></div>
+ <div class="style-M6JJL" id="style-M6JJL"></div>
+ <div id="style-x72oh" class="style-x72oh"></div><canvas width="70" height="70" id="sni-s68" class="style-TctUl"></canvas>
+   </body>
+</html>
