@@ -156,6 +156,64 @@ body {
     font-weight: 500;
 } 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 .rel-hhd { 
     position: relative;
 } 
@@ -307,7 +365,10 @@ canvas {
 
 .row-cxc { 
     flex-direction: row;
-    
+    /* justify-content: space-evenly; */
+    /* font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; */
+    /* font-weight: 400; */
+    /* font-size: 100px; */
     
 } 
 
@@ -378,7 +439,7 @@ button {
 } 
 
 .text-18a { 
-    font-size: .75rem; 
+    font-size: 1rem; 
     line-height: 1rem;
 } 
 
@@ -839,7 +900,7 @@ p {
 } 
 
 .p-3mq { 
-    padding: .5rem;
+    padding: .9rem;
 } 
 
 .pt-\[0\.6rem\] { 
