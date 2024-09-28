@@ -331,8 +331,13 @@ astro-island {
 } 
 
 .bg-tgo { 
+
+    
     --tw-bg-opacity: 1; 
-    background-color: rgb(255 255 255 / var(--tw-bg-opacity));
+    /* background-color: rgb(255 255 255 / var(--tw-bg-opacity)); */
+    /* background-image: url(./img/eyelooping.gif); */
+    background-image: url(./img/clinclingif-ezgif.com.gif);
+    background-position: center;
 } 
 
 .px-7je { 
@@ -478,6 +483,10 @@ button {
 .mx-zz5 { 
     margin-left: auto; 
     margin-right: auto;
+    background-color: #070707;
+    background-image: url(./img/clinclingif-ezgif.com.gif);
+    background-position: center;
+    background-repeat: repeat-x;
 } 
 
 .mb-z45 { 
@@ -523,7 +532,7 @@ button {
 } 
 
 .border-gray-dcq { 
-    border-color: #f3f4f6;
+    border-color: #0055ff;
 } 
 
 .pb-he1 { 
@@ -667,7 +676,7 @@ h1 {
 
 .font-17v { 
     /* font-weight: 200; */
-    font-size: 2.5rem; /* Adjust the size */
+    font-size: 4rem; /* Adjust the size */
     /* color: #2c00f1; Change to a deep blue-gray color */
     color: #fff;
     font-weight: bold; /* Make the text bold */
@@ -675,6 +684,43 @@ h1 {
     text-transform: uppercase; /* Make the text uppercase */
     margin-bottom: 1rem; /* Adjust bottom margin */
     text-shadow: 0 0 20px #00fffb, 0 0 40px #0081bc;
+
+
+    background-image: url(./img/eyelooping.gif);
+    background-position: center;
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+    background-size: contain;
+            
+    text-shadow: 0 0 20px #06ffea, 0 0 40px #0011ff00;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 } 
 
 @media (min-width: 640px){ 
@@ -867,6 +913,7 @@ p {
 .px-8np { 
     padding-left: 1rem; 
     padding-right: 1rem;
+    
 } 
 
 .py-hag { 
